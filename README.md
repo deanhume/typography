@@ -17,4 +17,8 @@ A curated collection of web typography articles.
 
 
 ## Books
+- [On Web Typography](http://www.abookapart.com/products/on-web-typography)
+- [Thinking with Type](http://www.thinkingwithtype.com/)
+- [100 Best Typefaces Ever](http://www.myfavouritemagazines.co.uk/design-bookazines/100-best-typefaces-ever/)
+- [The Elements of Typographic Style](http://www.amazon.co.uk/Elements-Typographic-Style-Robert-Bringhurst/dp/0881792063)
 
