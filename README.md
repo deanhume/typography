@@ -10,12 +10,18 @@ A curated collection of web typography articles.
 - [Choosing web fonts: 15 expert tips](http://www.creativebloq.com/web-design/choose-web-fonts-1233034)
 - [The Good, The Bad And The Great Examples Of Web Typography](http://www.smashingmagazine.com/2014/12/22/the-good-the-bad-and-the-great-examples-of-web-typography/)
 - [W3C Typography on the Web](http://www.w3.org/wiki/Typography_on_the_Web)
+- [Web Fonts Performance: Making Pretty, Fast](https://www.igvita.com/2012/09/12/web-fonts-performance-making-pretty-fast/)
 
 ## Blogs
 - [Best Examples of Typography in Web Design](http://www.awwwards.com/websites/typography/)
 - [I Love Typography](http://ilovetypography.com/)
 
 ## Web Fonts & Web Performance
+- [Loading webfonts with high performance on responsive websites](http://bdadam.com/blog/loading-webfonts-with-high-performance.html)
+- [Font Loading Revisited with Font Events](http://www.filamentgroup.com/lab/font-events.html)
+- [How we use web fonts responsibly, or, avoiding a @font-face-palm](http://www.filamentgroup.com/lab/font-loading.html)
+- [Better @font-face with Font Load Events](https://dev.opera.com/articles/better-font-face/)
+- [Better webfont loading with using localStorage and providing WOFF2 support](http://bdadam.com/blog/better-webfont-loading-with-localstorage-and-woff2.html)
 
 ## Tools
 - [A simple plugin to keep font-size in proportion with it's containers size](https://github.com/jkroso/flowtype)
@@ -36,6 +42,9 @@ A curated collection of web typography articles.
 - [Beautiful Web Type](http://hellohappy.org/beautiful-web-type/)
 - [Google Font Combinations](http://briangardner.com/google-font-combinations/)
 - [Top 5 Google Fonts](http://techdissected.com/web-and-computing/design/top-5-google-font-combinations/)
+
+## Hosted Web Font Providers
+
 
 
 
