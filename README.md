@@ -11,6 +11,8 @@ A curated collection of web typography articles.
 - [The Good, The Bad And The Great Examples Of Web Typography](http://www.smashingmagazine.com/2014/12/22/the-good-the-bad-and-the-great-examples-of-web-typography/)
 - [W3C Typography on the Web](http://www.w3.org/wiki/Typography_on_the_Web)
 - [Web Fonts Performance: Making Pretty, Fast](https://www.igvita.com/2012/09/12/web-fonts-performance-making-pretty-fast/)
+- [Font Smoothing](http://davidwalsh.name/font-smoothing)
+- [Font Smoothing Explained](http://szafranek.net/works/articles/font-smoothing-explained/)
 
 ## Blogs
 - [Best Examples of Typography in Web Design](http://www.awwwards.com/websites/typography/)
