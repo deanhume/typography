@@ -13,6 +13,7 @@ A curated collection of web typography articles.
 - [Web Fonts Performance: Making Pretty, Fast](https://www.igvita.com/2012/09/12/web-fonts-performance-making-pretty-fast/)
 - [Font Smoothing](http://davidwalsh.name/font-smoothing)
 - [Font Smoothing Explained](http://szafranek.net/works/articles/font-smoothing-explained/)
+- [The State of Web Type](https://dev.opera.com/articles/state-of-web-type/)
 
 ## Blogs
 - [Best Examples of Typography in Web Design](http://www.awwwards.com/websites/typography/)
@@ -31,6 +32,7 @@ A curated collection of web typography articles.
 - [Preventing the Performance Hit from Custom Fonts](http://css-tricks.com/preventing-the-performance-hit-from-custom-fonts/)
 - [Web Font Optimization](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/webfont-optimization?hl=en)
 - [Font Face and Performance](http://www.stevesouders.com/blog/2009/10/13/font-face-and-performance/)
+- [The State of Web Type - Up-to-date data on support for type and typographic features on the web](http://stateofwebtype.com/)
 
 ## Books
 - [On Web Typography](http://www.abookapart.com/products/on-web-typography)
