@@ -15,6 +15,8 @@ A curated collection of web typography articles.
 - [Font Smoothing Explained](http://szafranek.net/works/articles/font-smoothing-explained/)
 - [The State of Web Type](https://dev.opera.com/articles/state-of-web-type/)
 - [Dashes in Web Typography](http://viljamis.com/dashes/)
+- [Scale & Rhythm in Typography](http://lamb.cc/typograph/)
+- [Typographic Scale](http://retinart.net/typography/typographicscale/)
 
 ## Blogs
 - [Best Examples of Typography in Web Design](http://www.awwwards.com/websites/typography/)
