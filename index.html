@@ -5,25 +5,200 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Typography by deanhume</title>
 
+    <link rel="stylesheet" href="stylesheets/skeleton.css">
+    <link rel="stylesheet" href="stylesheets/normalize.css">
     <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <link href='http://fonts.googleapis.com/css?family=Playfair+Display:900;' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Fauna+One' rel='stylesheet' type='text/css'>
+    
+
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <style>
+    html{
+      -webkit-font-smoothing: antialiased;
+      background: rgb(234,186,34);
+    }
+
+    body{
+      text-align: center;
+    }
+
+    .header{
+      margin-top: 1rem;
+      text-align: center;
+      padding-bottom: 60px;
+      margin-top: 80px;
+    }
+
+    h1{
+      color: rgb(255,255,255);
+      line-height: 0.9em;
+      font-size: 10.3em;
+      letter-spacing: -0.04em;
+      margin-bottom: 0.3em;
+      white-space: nowrap;
+      -webkit-transition: font-size 0.3s ease;
+      font-family: 'Playfair Display', serif;
+    }
+
+    h2{
+      color: black;
+      line-height: 0.9em;
+      font-size: 6.3em;
+      letter-spacing: -0.04em;
+      margin-bottom: 0.3em;
+      white-space: nowrap;
+      -webkit-transition: font-size 0.3s ease;
+      font-family: 'Playfair Display', serif;
+    }
+
+    p
+    {
+      font-family: 'Fauna One', serif;
+    }
+
+    footer{
+      background: white;
+      height: 100%;
+    }
+
+    .footerDeets{
+      padding-top: 40px;
+    }
+
+    ul{
+      text-align: left;
+      text-decoration: none;
+      list-style: none;
+      padding-top: 25px;
+    }
+
+    li{
+      padding-left: 10px;
+      padding-top: 4px;
+    }
+
+    a{
+      text-decoration: none;
+       color: black;
+        font-family: 'Fauna One', serif;
+    }
+
+    .madeWith{
+       font-family: 'Fauna One', serif;
+    }
+
+    .heart{
+      font-size: 25px;
+    }
+
+    .dean{
+      line-height: 0.9em;
+      font-size: 2.3em;
+      letter-spacing: -0.04em;
+      margin-bottom: 0.3em;
+      white-space: nowrap;
+      -webkit-transition: font-size 0.3s ease;
+      font-family: 'Playfair Display', serif;
+    }
+
+    .footerLinks{
+      line-height: 0.9em;
+      font-size: 2.3em;
+      letter-spacing: -0.04em;
+      margin-bottom: 0.3em;
+      white-space: nowrap;
+      -webkit-transition: font-size 0.3s ease;
+      font-family: 'Playfair Display', serif;
+      text-align: left;
+    }
+
+    .navButtons{
+      float: right;
+      margin-top: -60px;
+      margin-right: 200px;
+    }
+
+    .button {
+        display: inline-block;
+        height: 38px;
+        padding: 0 30px;
+        text-align: center;
+        font-size: 11px;
+        font-weight: 600;
+        line-height: 38px;
+        letter-spacing: .1rem;
+        text-transform: uppercase;
+        text-decoration: none;
+        white-space: nowrap;
+        background-color: transparent;
+        border-radius: 4px;
+        border: 1px solid #000;
+        cursor: pointer;
+        box-sizing: border-box;
+}
+
+    </style>
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>Typography</h1>
-        <p>A collection of web typography resources</p>
 
-        <p class="view"><a href="https://github.com/deanhume/typography">View the Project on GitHub <small>deanhume/typography</small></a></p>
+  <!-- buttons -->
+  <div class="navButtons">
+    <a href="about.html" class="button">About</a>
+    <a href="https://github.com/deanhume/typography" class="button">Github</a>
+  </div>
 
-      </header>
-      <section>
-        <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3><p>
-  work in progress.</p>
+  <!-- header -->
+  <section class="header">
+        <h1>Web Typography</h2>
+  </section>
+
+  <!-- articles -->
+  <h2>Articles</h2>
+  <p>This site contains a curated collection of web typography articles, blogs, tools and font combinination. </p>
+
+  <!-- blogs -->
+  <h2>Blogs</h2>
+  <p>This site contains a curated collection of web typography articles, blogs, tools and font combinination. </p>
+
+  <!--performance -->
+  <h2>Web Fonts & Web Performance</h2>
+  <p>This site contains a curated collection of web typography articles, blogs, tools and font combinination. </p>
+  
+  <!-- tools -->
+  <h2>Tools</h2>
+  <p>This site contains a curated collection of web typography articles, blogs, tools and font combinination. </p>
+
+  <!-- books -->
+  <h2>Books</h2>
+  <p>Typographic style, typefaces and web typography books.</p>
+
+  <!-- font -->
+  <h2>Font Combinations</h2>
+  <p>A useful collection of font combinations to help you with your next project.</p>
+
+  <!-- font -->
+  <footer>
+   
+      <div class="row footerDeets">
+        <div class="seven columns madeWith">Made with <span class="heart">❤</span> by <br><span class="dean">Dean Hume<span></div>
+        <!-- footer-links -->
+        <div class="three columns">
+            <ul>
+            <span class="footerLinks">Links</span>
+              <li><a href="articles.html">Typography Articles</a></li>
+              <li><a href="blogs.html">Typography Blogs</a></li>
+              <li><a href="typography-performance.html">Typography Performance</a></li>
+              <li><a href="web-fonts.html">Web Fonts</a></li>
+              <li><a href="typography-tools.html">Typography Tools</a></li>
+              <li><a href="typography-books.html">Typography Books</a></li>
+            </ul>
+        </div>
+      </div>
+
+  </footer>
   </body>
 </html>
