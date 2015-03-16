@@ -18,149 +18,179 @@
     <style>
     	body{
     		background-color: #0ac5f4;
-    		   margin:0;
-			   padding:0;
-			   height:100%;
-    	}
+           margin:0;
+           padding:0;
+           height:100%;
+       }
 
-    	html{
-    		-webkit-font-smoothing: antialiased;
-    		text-align: center;
-    		margin:0;
-			padding:0;
-			height:100%;1
-    	}
+       html{
+          -webkit-font-smoothing: antialiased;
+          text-align: center;
+          margin:0;
+          padding:0;
+          height:100%;1
+      }
 
-    	footer{
-    		background: white;
-    		height: 350px;
-    		position:absolute;
-   			bottom:0;
-   			width: 100%;
-    	}
+      footer{
+          background: white;
+          height: 350px;
+          position:absolute;
+          bottom:0;
+          width: 100%;
+      }
 
-    	.footerDeets{
-    		padding-top: 40px;
-    	}
+      .footerDeets{
+          padding-top: 40px;
+      }
 
-    	ul{
-    		text-align: left;
-    		text-decoration: none;
-    		list-style: none;
-    		padding-top: 25px;
-    	}
+      ul{
+          text-align: left;
+          text-decoration: none;
+          list-style: none;
+          padding-top: 25px;
+      }
 
-    	li{
-    		padding-left: 10px;
-    		padding-top: 4px;
-    	}
+      li{
+          padding-left: 10px;
+          padding-top: 4px;
+      }
 
-    	a{
-    		text-decoration: none;
-    		color: black;
-    		font-family: 'Fauna One', serif;
-    	}
+      a{
+          text-decoration: none;
+          color: black;
+          font-family: 'Fauna One', serif;
+      }
 
-    	.madeWith{
-    		font-family: 'Fauna One', serif;
-    	}
+      .madeWith{
+          font-family: 'Fauna One', serif;
+      }
 
-    	.heart{
-    		font-size: 25px;
-    	}
+      .heart{
+          font-size: 25px;
+      }
 
-    	.dean{
-    		line-height: 0.9em;
-    		font-size: 2.3em;
-    		letter-spacing: -0.04em;
-    		margin-bottom: 0.3em;
-    		white-space: nowrap;
-    		-webkit-transition: font-size 0.3s ease;
-    		font-family: 'Lato', sans-serif;
-    		font-style: italic;
-    	}
+      .dean{
+          line-height: 0.9em;
+          font-size: 2.3em;
+          letter-spacing: -0.04em;
+          margin-bottom: 0.3em;
+          white-space: nowrap;
+          -webkit-transition: font-size 0.3s ease;
+          font-family: 'Lato', sans-serif;
+          font-style: italic;
+      }
 
-    	.footerLinks{
-    		line-height: 0.9em;
-    		font-size: 2.3em;
-    		letter-spacing: -0.04em;
-    		margin-bottom: 0.3em;
-    		white-space: nowrap;
-    		-webkit-transition: font-size 0.3s ease;
-    		font-family: 'Lato', sans-serif;
-    		font-style: italic;
-    		text-align: left;
-    	}
+      .footerLinks{
+          line-height: 0.9em;
+          font-size: 2.3em;
+          letter-spacing: -0.04em;
+          margin-bottom: 0.3em;
+          white-space: nowrap;
+          -webkit-transition: font-size 0.3s ease;
+          font-family: 'Lato', sans-serif;
+          font-style: italic;
+          text-align: left;
+      }
 
-    	.topMargin{
-    		margin-top: 140px;
-    		padding-bottom: 140px;
-    	}
+      .topMargin{
+          margin-top: 140px;
+          padding-bottom: 380px;
+      }
 
-    	.rightBorder{
-    		border-right-style: solid;
-    		border-right-width: 7px;
-    		height: 300px;
-    	}
+      .rightBorder{
+          border-right-style: solid;
+          border-right-width: 7px;
+          height: 300px;
+      }
 
-    	h1{
-    		color: rgb(255,255,255);
-    		line-height: 0.9em;
-    		font-size: 7.3em;
-    		letter-spacing: -0.04em;
-    		margin-bottom: 0.3em;
-    		white-space: nowrap;
-    		-webkit-transition: font-size 0.3s ease;
-    		font-family: 'Lato', sans-serif;
-    		font-style: italic;
-    	}
+      h1{
+          color: rgb(255,255,255);
+          line-height: 0.9em;
+          font-size: 7.3em;
+          letter-spacing: -0.04em;
+          margin-bottom: 0.3em;
+          white-space: nowrap;
+          -webkit-transition: font-size 0.3s ease;
+          font-family: 'Lato', sans-serif;
+          font-style: italic;
+      }
 
-    	.surround{
-			   min-height:100%;
-			   position:relative;
-    	}
+      .surround{
+          min-height:100%;
+          position:relative;
+            margin-top: 200px;
+      }
 
-    	.italicName{
-    		font-style: italic;
-    		font-weight: 700;
-    		font-size: 1.2em;
-    	}
-    </style>
+      .italicName{
+          font-style: italic;
+          font-weight: 700;
+          font-size: 1.2em;
+      }
+
+      .navButtons{
+          float: right;
+          margin-top: -180px;
+          margin-right: 30px;
+      }
+
+      .button  {
+        display: inline-block;
+        height: 38px;
+        padding: 0 30px;
+        text-align: center;
+        font-size: 11px;
+        font-weight: 600;
+        line-height: 38px;
+        letter-spacing: .1rem;
+        text-transform: uppercase;
+        text-decoration: none;
+        white-space: nowrap;
+        background-color: transparent;
+        border-radius: 4px;
+        border: 1px solid #000;
+        cursor: pointer;
+        box-sizing: border-box;
+    }
+</style>
 </head>
 <body>
+  <!-- buttons -->
+  <div class="navButtons">
+    <a href="index.html" class="button">Home</a>
+    <a href="about.html" class="button">About</a>
+    <a href="https://github.com/deanhume/typography" class="button">Github</a>
+</div>
 <div class="surround">
+  <!-- body -->
+  <div class="row topMargin">
+     <div class="six columns rightBorder"><h1>Books</h1></div>
+     <div class="four columns">
+        <ul>
+           <li><a href="http://www.abookapart.com/products/on-web-typography"><span class="italicName">On Web Typography</span> - Jason Santa Maria</a></li>
+           <li><a href="http://www.thinkingwithtype.com/"><span class="italicName">Thinking with Type</span> - Ellen Lupton</a></li>
+           <li><a href="http://www.myfavouritemagazines.co.uk/design-bookazines/100-best-typefaces-ever/"><span class="italicName">100 Best Typefaces Ever</span> - Computer Arts</a></li>
+           <li><a href="http://www.amazon.co.uk/Elements-Typographic-Style-Robert-Bringhurst/dp/0881792063"><span class="italicName">Elements of Typographic Style</span> - Robert Bringhurst</a></li>
+       </ul></div>
+   </div>
 
-		<!-- body -->
-		<div class="row topMargin">
-			<div class="six columns rightBorder"><h1>Books</h1></div>
-			<div class="four columns">
-				<ul>
-					<li><a href="http://www.abookapart.com/products/on-web-typography"><span class="italicName">On Web Typography</span> - Jason Santa Maria</a></li>
-					<li><a href="http://www.thinkingwithtype.com/"><span class="italicName">Thinking with Type</span> - Ellen Lupton</a></li>
-					<li><a href="http://www.myfavouritemagazines.co.uk/design-bookazines/100-best-typefaces-ever/"><span class="italicName">100 Best Typefaces Ever</span> - Computer Arts</a></li>
-					<li><a href="http://www.amazon.co.uk/Elements-Typographic-Style-Robert-Bringhurst/dp/0881792063"><span class="italicName">Elements of Typographic Style</span> - Robert Bringhurst</a></li>
-				</ul></div>
-			</div>
-
-			<!-- footer -->
-			<footer>
-				<div class="row footerDeets">
-					<div class="seven columns madeWith">Made with <span class="heart">❤</span> by <br><span class="dean">Dean Hume<span></div>
-					<!-- footer-links -->
-					<div class="three columns">
-						<ul>
-							<span class="footerLinks">Links</span>
-							<li><a href="articles.html">Typography Articles</a></li>
-							<li><a href="blogs.html">Typography Blogs</a></li>
-							<li><a href="typography-performance.html">Typography Performance</a></li>
-							<li><a href="web-fonts.html">Web Fonts</a></li>
-							<li><a href="typography-tools.html">Typography Tools</a></li>
-							<li><a href="typography-books.html">Typography Books</a></li>
-						</ul>
-					</div>
-				</div>
-			</footer>
-		</div>
-	</body>
+   <!-- footer -->
+   <footer>
+    <div class="row footerDeets">
+       <div class="seven columns madeWith">Made with <span class="heart">❤</span> by <br><span class="dean">Dean Hume<span></div>
+       <!-- footer-links -->
+       <div class="three columns">
+          <ul>
+              <span class="footerLinks">Links</span>
+              <li><a href="articles.html">Typography Articles</a></li>
+              <li><a href="font-performance.html">Web Font Performance</a></li>
+              <li><a href="web-font-combinations.html">Web Font Combinations</a></li>
+              <li><a href="web-font-tools.html">Web Font Tools</a></li>
+              <li><a href="typography-books.html">Typography Books</a></li>
+          </ul>
+      </div>
+  </div>
+</footer>
+</div>
+</body>
 </html>
 
