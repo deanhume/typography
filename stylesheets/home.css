@@ -134,7 +134,7 @@ a:hover {
 /* Mobile */
 @media (min-width: 300px) and (max-width: 600px) {
 	h1 {
-		font-size: 4.6em;
+		font-size: 4.0em;
 	}
 
 	.titles {
