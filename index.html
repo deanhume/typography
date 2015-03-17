@@ -1,208 +1,71 @@
-<!doctype html>
+﻿<!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Typography by deanhume</title>
-    <link rel="stylesheet" href="stylesheets/skeleton.css">
-    <link rel="stylesheet" href="stylesheets/normalize.css">
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link href='http://fonts.googleapis.com/css?family=Playfair+Display:900;' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Fauna+One' rel='stylesheet' type='text/css'>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <style>
-    html{
-      -webkit-font-smoothing: antialiased;
-      background: rgb(234,186,34);
-    }
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="chrome=1">
+	<title>Web Typography - Home</title>
+	<meta name="Description" content="Home to some of the best typography articles, tools and font combinations from around the web." />
+	<link rel="stylesheet" href="stylesheets/skeleton.css">
+	<link rel="stylesheet" href="stylesheets/normalize.css">
+	<link rel="stylesheet" href="stylesheets/home.css">
+	<link href="http://fonts.googleapis.com/css?family=Playfair+Display:900|Fauna+One" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+</head>
+<body>
 
-    body{
-      text-align: center;
-    }
+	<!-- header -->
+	<div class="navButtons">
+		<a href="index.html" class="button">Home</a>
+		<a href="about.html" class="button">About</a>
+		<a href="https://github.com/deanhume/typography" class="button">
+			<img class="github" src="icons/github-icon.svg" />&nbsp;
+		</a>
+	</div>
 
-    .header{
-      margin-top: 1rem;
-      text-align: center;
-      padding-bottom: 60px;
-      margin-top: 80px;
-    }
+	<!-- header -->
+	<section class="header">
+		<h1>Web <br>Typography</h1>
+	</section>
 
-    h1{
-      color: rgb(255,255,255);
-      line-height: 0.9em;
-      font-size: 7.3em;
-      letter-spacing: -0.04em;
-      margin-bottom: 0.3em;
-      white-space: nowrap;
-      -webkit-transition: font-size 0.3s ease;
-      font-family: 'Playfair Display', serif;
-    }
+	<!-- articles -->
+	<a class="titles" href="articles.html">Articles</a>
+	<p>A pick of some of the best typography articles from around the web.</p>
 
-    .titles {
-      color: black;
-      line-height: 1.5em;
-      font-size: 4.3em;
-      letter-spacing: -0.04em;
-      margin-bottom: 0.3em;
-      white-space: nowrap;
-      -webkit-transition: font-size 0.3s ease;
-      font-family: 'Playfair Display', serif;
-    }
+	<!--performance -->
+	<a class="titles" href="font-performance.html">Font Performance</a>
+	<p>Introducing fonts to a web page can have an impact on the page load times. Find out how to reduce this overhead.</p>
 
-    p
-    {
-      font-family: 'Fauna One', serif;
-    }
+	<!-- tools -->
+	<a class="titles" href="web-font-tools.html">Tools</a>
+	<p>Looking for the best web typography tools? Look no further than this collection of tools.</p>
 
-    footer{
-      background: white;
-      height: 100%;
-    }
+	<!-- books -->
+	<a class="titles" href="typography-books.html">Books</a>
+	<p>A great list of web typography books to suit every developer and designer.</p>
 
-    .footerDeets{
-      padding-top: 40px;
-    }
+	<!-- font -->
+	<a class="titles" href="">Font Combinations</a>
+	<p>Choosing the right font combinations can be tricky. Use this collection of font combinations to help you with your next project.</p>
 
-    ul{
-      text-align: left;
-      text-decoration: none;
-      list-style: none;
-      padding-top: 25px;
-    }
-
-    li{
-      padding-left: 10px;
-      padding-top: 4px;
-    }
-
-    a{
-      text-decoration: none;
-       color: black;
-        font-family: 'Fauna One', serif;
-    }
-
-    .madeWith{
-       font-family: 'Fauna One', serif;
-    }
-
-    .heart{
-      font-size: 25px;
-    }
-
-    .dean{
-      line-height: 0.9em;
-      font-size: 2.3em;
-      letter-spacing: -0.04em;
-      margin-bottom: 0.3em;
-      white-space: nowrap;
-      -webkit-transition: font-size 0.3s ease;
-      font-family: 'Playfair Display', serif;
-    }
-
-    .footerLinks{
-      line-height: 0.9em;
-      font-size: 2.3em;
-      letter-spacing: -0.04em;
-      margin-bottom: 0.3em;
-      white-space: nowrap;
-      -webkit-transition: font-size 0.3s ease;
-      font-family: 'Playfair Display', serif;
-      text-align: left;
-    }
-
-    .navButtons{
-      float: right;
-      margin-top: -60px;
-      margin-right: 30px;
-    }
-
-    .button  {
-        display: inline-block;
-        height: 38px;
-        padding: 0 30px;
-        text-align: center;
-        font-size: 11px;
-        font-weight: 600;
-        line-height: 38px;
-        letter-spacing: .1rem;
-        text-transform: uppercase;
-        text-decoration: none;
-        white-space: nowrap;
-        background-color: transparent;
-        border-radius: 4px;
-        border: 1px solid #000;
-        cursor: pointer;
-        box-sizing: border-box;
-    }
-
-      a:hover {
-        border-bottom: 2px #000 solid;
-      }
-
-      .github{
-			position: absolute;
-			margin-top: 3px;
-			margin-left: -13px;
-			width: 30px;
-      }
-    </style>
-  </head>
-  <body>
-
-  <!-- buttons -->
-  <div class="navButtons">
-    <a href="index.html" class="button">Home</a>
-    <a href="about.html" class="button">About</a>
-    <a href="https://github.com/deanhume/typography" class="button">
-    <img class="github" src="icons/github-icon.svg" />&nbsp;</a>
-  </div>
-
-  <!-- header -->
-  <section class="header">
-        <h1>Web Typography</h2>
-  </section>
-
-  <!-- articles -->
-  <a class="titles" href="articles.html">Articles</a>
-  <p>This site contains a curated collection of web typography articles, blogs, tools and font combinination. </p>
-
-  <!--performance -->
-  <a class="titles" href="font-performance.html">Font Performance</a>
-  <p>This site contains a curated collection of web typography articles, blogs, tools and font combinination. </p>
-  
-  <!-- tools -->
-  <a class="titles" href="web-font-tools.html">Tools</a>
-  <p>This site contains a curated collection of web typography articles, blogs, tools and font combinination. </p>
-
-  <!-- books -->
-  <a class="titles" href="typography-books.html">Books</a>
-  <p>Typographic style, typefaces and web typography books.</p>
-
-  <!-- font -->
-  <a class="titles" href="">Font Combinations</a>
-  <p>A useful collection of font combinations to help you with your next project.</p>
-
-   <!-- footer -->
-   <footer>
-    <div class="row footerDeets">
-      <div class="seven columns madeWith">Made with <span class="heart">❤</span> by <br>
-      <a class="dean" href="http://deanhume.com">DEAN HUME</a>
-      </div>
-      <!-- footer-links -->
-      <div class="three columns">
-        <ul>
-          <span class="footerLinks">LINKS</span>
-          <li><a href="articles.html">Typography Articles</a></li>
-          <li><a href="font-performance.html">Web Font Performance</a></li>
-          <li><a href="web-font-combinations.html">Web Font Combinations</a></li>
-          <li><a href="web-font-tools.html">Web Font Tools</a></li>
-          <li><a href="typography-books.html">Typography Books</a></li>
-        </ul>
-      </div>
-    </div>
-  </footer>
-  </body>
+	<!-- footer -->
+	<footer>
+		<div class="row footerDeets">
+			<div class="seven columns madeWith">
+				Made with <span class="heart">❤</span> by <br>
+				<a class="dean" href="http://deanhume.com">DEAN HUME</a>
+			</div>
+			<!-- footer-links -->
+			<div class="three columns">
+				<ul>
+					<span class="footerLinks">LINKS</span>
+					<li><a href="articles.html">Typography Articles</a></li>
+					<li><a href="font-performance.html">Web Font Performance</a></li>
+					<li><a href="web-font-combinations.html">Web Font Combinations</a></li>
+					<li><a href="web-font-tools.html">Web Font Tools</a></li>
+					<li><a href="typography-books.html">Typography Books</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+</body>
 </html>

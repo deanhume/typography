@@ -1,290 +1,91 @@
-<!doctype html>
+﻿<!doctype html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="chrome=1">
-  <title>Typography by deanhume</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="chrome=1">
+	<title>Web Typography - Articles</title>
+	<meta name="Description" content="A pick of some of the best typography articles from around the web." />
+	<link rel="stylesheet" href="stylesheets/skeleton.css">
+	<link rel="stylesheet" href="stylesheets/normalize.css">
+	<link rel="stylesheet" href="stylesheets/articles.css">
+	<link href='http://fonts.googleapis.com/css?family=Yellowtail|Roboto+Condensed' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+</head>
+<body>
 
-  <link rel="stylesheet" href="stylesheets/skeleton.css">
-  <link rel="stylesheet" href="stylesheets/normalize.css">
-  <link rel="stylesheet" href="stylesheets/styles.css">
-  <link href='http://fonts.googleapis.com/css?family=Yellowtail|Roboto+Condensed' rel='stylesheet' type='text/css'>
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <style>
-      html{
-        -webkit-font-smoothing: antialiased;
-      }
+	<!-- buttons -->
+	<div class="navButtons">
+		<a href="index.html" class="button">Home</a>
+		<a href="about.html" class="button">About</a>
+		<a href="https://github.com/deanhume/typography" class="button">
+			<img class="github" src="icons/github-icon.svg" />&nbsp;
+		</a>
+	</div>
+	<!-- Header -->
+	<div class="header">
+		<h1 class="typography">Typography</h1>
+		<h1 class="articles">ARTICLES</h1>
+		<hr>
+	</div>
+	<!-- body -->
+	<div class="container">
+		<div class="row">
+			<!-- Main Links -->
+			<h2><a href="http://typecast.com/blog/a-more-modern-scale-for-web-typography">A More Modern Scale for Web Typography</a></h2>
+			<p>Jason Pamental explains why the  proportions of your body, headers & measure deserve as much attention as margins, floats & media queries.</p>
 
-      body{
-        text-align: center;
-      }
+			<h2><a href="http://www.creativebloq.com/typography/better-web-typography-few-simple-steps-5132803">Better web typography in 13 simple steps</a></h2>
+			<p>This article on the Creative Bloq website explores a few basic tips to improve your web typography.</p>
 
-      .header{
-        padding-top: 85px;
-        padding-bottom: 30px;
-      }
+			<h2><a href="http://www.creativebloq.com/web-design/choose-web-fonts-1233034">Choosing web fonts: 15 expert tips</a></h2>
+			<p>Another great article on the Creative Bloq website which discusses 15 expert web typography tips.</p>
 
-      h1{
-        color: #000;
-        line-height: 0.9em;
-        font-size: 3.3em;
-        letter-spacing: -0.04em;
-        margin-bottom: 0.3em;
-        white-space: nowrap;
-        -webkit-transition: font-size 0.3s ease;
-        font-family: 'Roboto Condensed', sans-serif;
-      }
+			<h2><a href="http://www.smashingmagazine.com/2014/12/22/the-good-the-bad-and-the-great-examples-of-web-typography/">Great Examples Of Web Typography</a></h2>
+			<p>Choosing typefaces is an integral part of every web design project. This Smashing Magazine articles dives into the areas you should avoid if you wish to make a mistake on your next typographic venture.</p>
 
-      h2{
-        color: black;
-        line-height: 0.9em;
-        font-size: 2.3em;
-        letter-spacing: -0.04em;
-        margin-bottom: 0.3em;
-        white-space: nowrap;
-        -webkit-transition: font-size 0.3s ease;
-        font-family: 'Roboto Condensed', sans-serif;
-      }
+			<h2><a href="http://www.w3.org/wiki/Typography_on_the_Web">Typography on the Web</a></h2>
+			<p>What is typography? In this Web Standards Curriculum article you'll discover exactly why typography is limited on the web.</p>
 
-      p
-      {
-        font-family: 'Roboto Condensed', sans-serif;
-      }
+			<h2><a href="http://davidwalsh.name/font-smoothing">Font Smoothing in Webkit and Firefox</a></h2>
+			<p>David Walsh runs through font smoothing in webkit and firefox.</p>
 
-      footer{
-        background: #56B3B5;
-        height: 100%;
-      }
+			<h2><a href="http://szafranek.net/works/articles/font-smoothing-explained/">Font Smoothing Explained</a></h2>
+			<p>This article discusses font smoothing, a feature that significantly affects the final look of a type on screen.</p>
 
-      .footerDeets{
-        padding-top: 40px;
-      }
+			<h2><a href="https://dev.opera.com/articles/state-of-web-type/">The State of Web Type</a></h2>
+			<p>The Opera dev team reveal the current state of web type.</p>
 
-      ul{
-        text-align: left;
-        text-decoration: none;
-        list-style: none;
-        padding-top: 25px;
-      }
+			<h2><a href="http://viljamis.com/dashes/">Dashes in Web Typography</a></h2>
+			<p>A simple introduction into dashes in web typography.</p>
 
-      li{
-        padding-left: 10px;
-        padding-top: 4px;
-      }
+			<h2><a href="http://lamb.cc/typograph/">Scale & Rhythm in Typography</a></h2>
+			<p>This article explores how the intertwined typographic concepts of scale and rhythm can be effect the feel of a web page.</p>
 
-      a{
-        text-decoration: none;
-        color: black;
-        font-family: 'Roboto Condensed', sans-serif;
-      }
-
-      .madeWith{
-        font-family: 'Roboto Condensed', sans-serif;
-      }
-
-      .heart{
-        font-size: 25px;
-      }
-
-      .dean{
-        line-height: 0.9em;
-        font-size: 2.3em;
-        font-weight: 900;
-        letter-spacing: -0.04em;
-        margin-bottom: 0.3em;
-        white-space: nowrap;
-        -webkit-transition: font-size 0.3s ease;
-        font-family: 'Yellowtail', cursive;
-      }
-
-      .footerLinks{
-        line-height: 0.9em;
-        font-size: 2.3em;
-        font-weight: 900;
-        letter-spacing: -0.04em;
-        margin-bottom: 0.3em;
-        white-space: nowrap;
-        -webkit-transition: font-size 0.3s ease;
-        font-family: 'Yellowtail', cursive;
-        text-align: left;
-      }
-
-      .navButtons{
-        float: right;
-        margin-top: 10px;
-        margin-right: 30px;
-      }
-
-      .button  {
-        display: inline-block;
-        height: 38px;
-        padding: 0 30px;
-        text-align: center;
-        font-size: 11px;
-        font-weight: 600;
-        line-height: 38px;
-        letter-spacing: .1rem;
-        text-transform: uppercase;
-        text-decoration: none;
-        white-space: nowrap;
-        background-color: transparent;
-        border-radius: 4px;
-        border: 1px solid #000;
-        cursor: pointer;
-        box-sizing: border-box;
-      }
-
-      .textHeader{
-        margin-top: 90px;
-        color: black;
-        font-size: 4.3em;
-        font-weight: 900;
-        line-height: 1.0;
-        letter-spacing: -0.04em;
-        white-space: nowrap;
-        -webkit-transition: font-size 0.3s ease;
-        font-family: 'Open Sans', sans-serif;
-        padding-top: 30px;
-      }
-
-      .blockHeader{
-        color: rgb(130,242,220);
-        font-size: 4.3em;
-        font-weight: 900;
-        line-height: 1.0;
-        letter-spacing: -0.04em;
-        white-space: nowrap;
-        -webkit-transition: font-size 0.3s ease;
-        font-family: 'Open Sans', sans-serif;
-      }
-
-      .blockPaddingBottom{
-        padding-bottom: 30px;
-      }
-
-      .blockPaddingTop{
-        padding-top: 30px;
-      }
-
-      .blockWhite{
-        background-color: white;
-      }
-
-      a:hover {
-        border-bottom: 2px #000 solid;
-      }
-
-      .typography{
-        font-family: 'Yellowtail', cursive;
-        -ms-transform: rotate(-10deg);
-        -webkit-transform: rotate(-10deg);
-        transform: rotate(-10deg);
-        font-size: 4.2em;
-        padding-bottom: 21px;
-      }
-
-      .articles{
-        color: #000;
-        line-height: 0.9em;
-        font-size: 6.3em;
-        letter-spacing: -0.04em;
-        margin-bottom: 0.3em;
-        white-space: nowrap;
-        -webkit-transition: font-size 0.3s ease;
-        font-family: 'Roboto Condensed', sans-serif;
-        font-weight: 700;
-      }
-
-      hr {
-        width: 200px;
-        border-width: 4px 0 0 0;
-        border-color: black;
-      }
-
-            .github{
-      position: absolute;
-      margin-top: 3px;
-      margin-left: -13px;
-      width: 30px;
-      }
-    </style>
-  </head>
-  <body>
-
-    <!-- buttons -->
-    <div class="navButtons">
-      <a href="index.html" class="button">Home</a>
-      <a href="about.html" class="button">About</a>
-      <a href="https://github.com/deanhume/typography" class="button">
-      <img class="github" src="icons/github-icon.svg" />&nbsp;</a>
-    </div>
-    <!-- Header -->
-    <div class="header"> 
-      <h1 class="typography">Typography</h1>
-      <h1 class="articles">ARTICLES</h1>
-       <hr>
-    </div>
-    <!-- body -->
-    <div class="container">
-      <div class="row">
-       <!-- Main Links -->
-       <h2><a href="http://typecast.com/blog/a-more-modern-scale-for-web-typography">A More Modern Scale for Web Typography</a></h2>
-       <p>Jason Pamental explains why the  proportions of your body, headers & measure deserve as much attention as margins, floats & media queries.</p>
-
-       <h2><a href="http://www.creativebloq.com/typography/better-web-typography-few-simple-steps-5132803">Better web typography in 13 simple steps</a></h2>
-       <p>This article on the Creative Bloq website explores a few basic tips to improve your web typography.</p>
-
-       <h2><a href="http://www.creativebloq.com/web-design/choose-web-fonts-1233034">Choosing web fonts: 15 expert tips</a></h2>
-       <p>Another great article on the Creative Bloq website which discusses 15 expert web typography tips.</p>
-
-       <h2><a href="http://www.smashingmagazine.com/2014/12/22/the-good-the-bad-and-the-great-examples-of-web-typography/">The Good, The Bad And The Great Examples Of Web Typography</a></h2>
-       <p>Choosing typefaces is an integral part of every web design project. This Smashing Magazine articles dives into the areas you should avoid if you wish to make a mistake on your next typographic venture.</p>
-
-       <h2><a href="http://www.w3.org/wiki/Typography_on_the_Web">Typography on the Web</a></h2>
-       <p>What is typography? In this Web Standards Curriculum article you'll discover exactly why typography is limited on the web.</p>
-
-       <h2><a href="http://davidwalsh.name/font-smoothing">Font Smoothing in Webkit and Firefox</a></h2>
-       <p>David Walsh runs through font smoothing in webkit and firefox.</p>
-
-       <h2><a href="http://szafranek.net/works/articles/font-smoothing-explained/">Font Smoothing Explained</a></h2>
-       <p>This article discusses font smoothing, a feature that significantly affects the final look of a type on screen.</p>
-
-       <h2><a href="https://dev.opera.com/articles/state-of-web-type/">The State of Web Type</a></h2>
-       <p>The Opera dev team reveal the current state of web type.</p>
-
-       <h2><a href="http://viljamis.com/dashes/">Dashes in Web Typography</a></h2>
-       <p>A simple introduction into dashes in web typography.</p>
-
-       <h2><a href="http://lamb.cc/typograph/">Scale & Rhythm in Typography</a></h2>
-       <p>This article explores how the intertwined typographic concepts of scale and rhythm can be effect the feel of a web page.</p>
-
-       <h2><a href="http://retinart.net/typography/typographicscale/">The Typographic Scale</a></h2>
-       <p>A great introduction into understanding typographic scale.</p>
-     </h2>
-   </div>
- </div>
- <hr>
- <!-- footer -->
- <footer>
-  <div class="row footerDeets">
-    <div class="seven columns madeWith">Made with <span class="heart">❤</span> by <br>
-      <a class="dean" href="http://deanhume.com">DEAN HUME</a>
-    </div>
-    <!-- footer-links -->
-    <div class="three columns">
-      <ul>
-        <span class="footerLinks">LINKS</span>
-        <li><a href="articles.html">Typography Articles</a></li>
-        <li><a href="font-performance.html">Web Font Performance</a></li>
-        <li><a href="web-font-combinations.html">Web Font Combinations</a></li>
-        <li><a href="web-font-tools.html">Web Font Tools</a></li>
-        <li><a href="typography-books.html">Typography Books</a></li>
-      </ul>
-    </div>
-  </div>
-</footer>
+			<h2><a href="http://retinart.net/typography/typographicscale/">The Typographic Scale</a></h2>
+			<p>A great introduction into understanding typographic scale.</p>
+			</h2>
+		</div>
+	</div>
+	<hr>
+	<!-- footer -->
+	<footer>
+		<div class="row footerDeets">
+			<div class="seven columns madeWith">
+				Made with <span class="heart">❤</span> by <br>
+				<a class="dean" href="http://deanhume.com">DEAN HUME</a>
+			</div>
+			<!-- footer-links -->
+			<div class="three columns">
+				<ul>
+					<span class="footerLinks">LINKS</span>
+					<li><a href="articles.html">Typography Articles</a></li>
+					<li><a href="font-performance.html">Web Font Performance</a></li>
+					<li><a href="web-font-combinations.html">Web Font Combinations</a></li>
+					<li><a href="web-font-tools.html">Web Font Tools</a></li>
+					<li><a href="typography-books.html">Typography Books</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>
