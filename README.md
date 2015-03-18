@@ -18,10 +18,6 @@ A curated collection of web typography articles.
 - [Scale & Rhythm in Typography](http://lamb.cc/typograph/)
 - [Typographic Scale](http://retinart.net/typography/typographicscale/)
 
-## Blogs
-- [Best Examples of Typography in Web Design](http://www.awwwards.com/websites/typography/)
-- [I Love Typography](http://ilovetypography.com/)
-
 ## Web Fonts & Web Performance
 - [Loading webfonts with high performance on responsive websites](http://bdadam.com/blog/loading-webfonts-with-high-performance.html)
 - [Font Loading Revisited with Font Events](http://www.filamentgroup.com/lab/font-events.html)
@@ -49,9 +45,3 @@ A curated collection of web typography articles.
 - [Beautiful Web Type](http://hellohappy.org/beautiful-web-type/)
 - [Google Font Combinations](http://briangardner.com/google-font-combinations/)
 - [Top 5 Google Fonts](http://techdissected.com/web-and-computing/design/top-5-google-font-combinations/)
-
-## Hosted Web Font Providers
-
-
-
-
