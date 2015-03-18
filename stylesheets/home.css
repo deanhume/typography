@@ -131,10 +131,16 @@ a:hover {
 	width: 30px;
 }
 
+hr {
+	width: 100px;
+	border-width: 4px 0 0 0;
+	border-color: black;
+}
+
 /* Mobile */
 @media (min-width: 300px) and (max-width: 600px) {
 	h1 {
-		font-size: 4.0em;
+		font-size: 3.5em;
 	}
 
 	.titles {

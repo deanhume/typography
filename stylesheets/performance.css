@@ -168,7 +168,7 @@ a:hover {
 }
 
 /* Mobile */
-@media (min-width: 300px) and (max-width: 600px) {
+@media (min-width: 300px) and (max-width: 550px) {
 	h2 {
 		font-size: 1.3em;
 	}
@@ -189,5 +189,16 @@ a:hover {
 
 	.footerDeets ul {
 		text-align: center;
+	}
+}
+
+/* Tablet */
+@media (min-width: 550px) and (max-width: 600px) {
+	.hideOnMobile {
+		display: none;
+	}
+
+	.one-third.column {
+  		  width: 60%;
 	}
 }

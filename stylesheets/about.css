@@ -169,7 +169,7 @@ p {
 }
 
 /* Mobile */
-@media (min-width: 300px) and (max-width: 600px) {
+@media (min-width: 300px) and (max-width: 550px) {
 
 	.rightBorder {
 		border-bottom-style: solid;
@@ -207,8 +207,16 @@ p {
 }
 
 /* Tablet */
-@media (min-width: 600px) and (max-width: 1100px) {
+@media (min-width: 550px) and (max-width: 1100px) {
 	.title {
 		font-size: 8em;
 	}
+
+	.rightBorder {
+		border-right-style: solid;
+		border-right-width: 7px;
+		border-right-color: #000;
+		height: 600px;
+	}
+	
 }
