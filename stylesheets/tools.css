@@ -72,7 +72,7 @@ a:hover {
 footer {
 	background: white;
 	height: 100%;
-	padding-top: 50px;
+	padding-top: 150px;
 }
 
 .footerDeets {
@@ -168,7 +168,7 @@ hr {
 	}
 
 	#background {
-		font-size: 120px;
+		font-size: 100px;
 	}
 
 	h1 {
@@ -205,7 +205,41 @@ hr {
 		margin-top: 0%;
 	}
 
-		.footerDeets ul {
-			text-align: center;
-		}
+	.footerDeets ul {
+		text-align: center;
+	}
 }
+
+/* Tablet */
+@media (min-width: 600px) and (max-width: 1000px) {
+	#background {
+		margin-top: 100px;
+		font-size: 11em;
+	}
+
+	#foreground {
+		width: 0px;
+	}
+
+	hr{
+		  margin-left: 60px;
+	}
+
+	p{
+		width: 400px;
+	}
+
+	.header {
+ 	 font-size: 3.5em;
+	}
+
+	footer{
+	padding-top: 650px;
+	}
+
+	.navButtons {
+		text-align: inherit;
+		margin-right: 0px;
+	}
+}
+
