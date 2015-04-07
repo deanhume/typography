@@ -19,6 +19,7 @@ A curated collection of web typography articles.
 - [Typographic Scale](http://retinart.net/typography/typographicscale/)
 
 ## Web Fonts & Web Performance
+- [Lightning Fast Font Loading Techniques](http://davidwalsh.name/font-loading)
 - [Loading webfonts with high performance on responsive websites](http://bdadam.com/blog/loading-webfonts-with-high-performance.html)
 - [Font Loading Revisited with Font Events](http://www.filamentgroup.com/lab/font-events.html)
 - [How we use web fonts responsibly, or, avoiding a @font-face-palm](http://www.filamentgroup.com/lab/font-loading.html)
