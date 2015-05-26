@@ -17,6 +17,7 @@ A curated collection of web typography articles.
 - [Dashes in Web Typography](http://viljamis.com/dashes/)
 - [Scale & Rhythm in Typography](http://lamb.cc/typograph/)
 - [Typographic Scale](http://retinart.net/typography/typographicscale/)
+- [The Mathematical Symphony of Typography](http://www.pearsonified.com/2011/12/golden-ratio-typography.php)
 
 ## Web Fonts & Web Performance
 - [Lightning Fast Font Loading Techniques](http://davidwalsh.name/font-loading)
@@ -46,3 +47,4 @@ A curated collection of web typography articles.
 - [Beautiful Web Type](http://hellohappy.org/beautiful-web-type/)
 - [Google Font Combinations](http://briangardner.com/google-font-combinations/)
 - [Top 5 Google Fonts](http://techdissected.com/web-and-computing/design/top-5-google-font-combinations/)
+- [100 Days of Fonts](http://100daysoffonts.com/)
