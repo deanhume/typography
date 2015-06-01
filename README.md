@@ -48,3 +48,8 @@ A curated collection of web typography articles.
 - [Google Font Combinations](http://briangardner.com/google-font-combinations/)
 - [Top 5 Google Fonts](http://techdissected.com/web-and-computing/design/top-5-google-font-combinations/)
 - [100 Days of Fonts](http://100daysoffonts.com/)
+
+## Featured
+This [site](http://deanhume.github.io/typography/) was featured on the [Device Wall](https://twitter.com/gauntface/status/604029887414829057/photo/1) at Google I/O 2015. 
+
+![Google I/O Device Wall](https://raw.githubusercontent.com/deanhume/typography/master/images/device-wall-small.jpg)
