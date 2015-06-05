@@ -53,3 +53,5 @@ A curated collection of web typography articles.
 This [site](http://deanhume.github.io/typography/) was featured on the [Device Wall](https://twitter.com/gauntface/status/604029887414829057/photo/1) at Google I/O 2015. 
 
 ![Google I/O Device Wall](https://raw.githubusercontent.com/deanhume/typography/master/images/device-wall-small.jpg)
+
+Sindre Sorhus' [list](https://github.com/sindresorhus/awesome) of awesome lists
