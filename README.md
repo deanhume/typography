@@ -42,7 +42,7 @@ A curated collection of web typography articles.
 - [The Elements of Typographic Style](http://www.amazon.co.uk/Elements-Typographic-Style-Robert-Bringhurst/dp/0881792063)
 
 ## Font Combinations
-- [TypeGenuis](http://www.typegenius.com/)
+- [Type Genius](http://www.typegenius.com/)
 - [Google web fonts in action](http://femmebot.github.io/google-type/)
 - [Beautiful Web Type](http://hellohappy.org/beautiful-web-type/)
 - [Google Font Combinations](http://briangardner.com/google-font-combinations/)
