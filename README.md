@@ -40,6 +40,8 @@ A curated collection of web typography articles.
 - [Thinking with Type](http://www.thinkingwithtype.com/)
 - [100 Best Typefaces Ever](http://www.myfavouritemagazines.co.uk/design-bookazines/100-best-typefaces-ever/)
 - [The Elements of Typographic Style](http://www.amazon.co.uk/Elements-Typographic-Style-Robert-Bringhurst/dp/0881792063)
+- [The Elements of Typographic Style - Online Version](http://webtypography.net/)
+- [Practical Typography](http://practicaltypography.com/)
 
 ## Font Combinations
 - [Type Genius](http://www.typegenius.com/)
@@ -48,6 +50,8 @@ A curated collection of web typography articles.
 - [Google Font Combinations](http://briangardner.com/google-font-combinations/)
 - [Top 5 Google Fonts](http://techdissected.com/web-and-computing/design/top-5-google-font-combinations/)
 - [100 Days of Fonts](http://100daysoffonts.com/)
+- [Designmodo - Great Font Combinations](http://designmodo.com/great-font-combinations/)
+- [Sessions with Typography](http://www.sessions-with-typography.com)
 
 ## Featured
 - This [site](http://deanhume.github.io/typography/) was featured on the [Device Wall](https://twitter.com/gauntface/status/604029887414829057/photo/1) at Google I/O 2015. 
