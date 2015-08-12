@@ -10,7 +10,7 @@ if ('serviceWorker' in navigator) {
 		console.log("subscription.endpoint: ", subscription.endpoint);
 
 		// Save the subscription Id - Fetch API FTW!
-		var url = 'http://deanhume.com/push/SaveSubscription?subscriptionId=' + subscription.subscriptionId;
+		var url = 'https://deanhume.azurewebsites.net/push/SaveSubscription?subscriptionId=' + subscription.subscriptionId;
 		fetch(url, {
 			method: 'get',
 			mode: 'cors'
