@@ -8,6 +8,17 @@ if ('serviceWorker' in navigator) {
 		
 		console.log("subscription.subscriptionId: ", subscription.subscriptionId);
 		console.log("subscription.endpoint: ", subscription.endpoint);
+
+		// Save the subscription Id - Fetch API FTW!
+		var url = 'http://deanhume.com/push/SaveSubscription?subscriptionId=' + subscription.subscriptionId;
+		fetch(url, {
+			method: 'get',
+			mode: 'cors'
+		}).then(function(response) {
+			console.log('Subscription saved successfully: ', response.text());
+		}).catch(function(err) {
+			console.log('There was an issue saving the subscription details: ', err);
+		});
 		
 	});
 	
