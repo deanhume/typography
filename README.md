@@ -18,6 +18,11 @@ A curated collection of awesome web typography articles.
 - [Scale & Rhythm in Typography](http://lamb.cc/typograph/)
 - [Typographic Scale](http://retinart.net/typography/typographicscale/)
 - [The Mathematical Symphony of Typography](http://www.pearsonified.com/2011/12/golden-ratio-typography.php)
+- [The Best Free Alternatives to the Most Popular Fonts](http://blog.spoongraphics.co.uk/articles/the-best-free-alternatives-to-the-most-popular-fonts)
+- [A History of Typeface Styles & Type Classification](http://blog.spoongraphics.co.uk/articles/a-history-of-typeface-styles-type-classification)
+- [26 digital typography rules for beginners](https://medium.com/product-design-ux-ui/26-digital-typography-rules-for-beginners-a04c6a5aaff3)
+- [Variable Fonts for Responsive Design](http://alistapart.com/blog/post/variable-fonts-for-responsive-design)
+- [Typeface Mechanics](http://www.frerejones.com/blog/typeface-mechanics-001/)
 
 ## Web Fonts & Web Performance
 - [Lightning Fast Font Loading Techniques](http://davidwalsh.name/font-loading)
@@ -34,6 +39,8 @@ A curated collection of awesome web typography articles.
 - [Web Font Optimization](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/webfont-optimization?hl=en)
 - [Font Face and Performance](http://www.stevesouders.com/blog/2009/10/13/font-face-and-performance/)
 - [The State of Web Type - Up-to-date data on support for type and typographic features on the web](http://stateofwebtype.com/)
+- [Normalize-Opentype.css - Adds OpenType features—ligatures, kerning, and more—to Normalize.css.](https://github.com/kennethormandy/normalize-opentype.css)
+- [Type­set.js - A typographic pre-processor for your html which uses zero client-side JavaScript](https://blot.im/typeset/)
 
 ## Books
 - [On Web Typography](http://www.abookapart.com/products/on-web-typography)
