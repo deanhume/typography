@@ -31,6 +31,7 @@ A curated collection of awesome web typography articles.
 - [How we use web fonts responsibly, or, avoiding a @font-face-palm](http://www.filamentgroup.com/lab/font-loading.html)
 - [Better @font-face with Font Load Events](https://dev.opera.com/articles/better-font-face/)
 - [Better webfont loading with using localStorage and providing WOFF2 support](http://bdadam.com/blog/better-webfont-loading-with-localstorage-and-woff2.html)
+- [Using Web Fonts the Best Way (in 2015)](https://helloanselm.com/2015/using-webfonts-in-2015/)
 
 ## Tools
 - [A simple plugin to keep font-size in proportion with it's containers size](https://github.com/jkroso/flowtype)
@@ -41,6 +42,8 @@ A curated collection of awesome web typography articles.
 - [The State of Web Type - Up-to-date data on support for type and typographic features on the web](http://stateofwebtype.com/)
 - [Normalize-Opentype.css - Adds OpenType features—ligatures, kerning, and more—to Normalize.css.](https://github.com/kennethormandy/normalize-opentype.css)
 - [Type­set.js - A typographic pre-processor for your html which uses zero client-side JavaScript](https://blot.im/typeset/)
+- [brick.im](https://github.com/alfredxing/brick) 
+- [Typebase.css](http://devinhunt.github.io/typebase.css/)
 
 ## Books
 - [On Web Typography](http://www.abookapart.com/products/on-web-typography)
@@ -59,6 +62,7 @@ A curated collection of awesome web typography articles.
 - [100 Days of Fonts](http://100daysoffonts.com/)
 - [Designmodo - Great Font Combinations](http://designmodo.com/great-font-combinations/)
 - [Sessions with Typography](http://www.sessions-with-typography.com)
+- [Google Web Font inspiration in HTML & CSS](http://tobiasahlin.com/typesource/)
 
 ## Featured
 - This [site](http://deanhume.github.io/typography/) was featured on the [Device Wall](https://twitter.com/gauntface/status/604029887414829057/photo/1) at Google I/O 2015. 
