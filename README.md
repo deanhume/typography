@@ -1,4 +1,4 @@
-# Awesome Web Typography [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Awesome Web Typography [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)[![Build Status](https://travis-ci.org/deanhume/typography.svg?branch=master)](https://travis-ci.org/deanhume/typography)
 
 
 A curated collection of awesome web typography articles.
@@ -67,3 +67,8 @@ A curated collection of awesome web typography articles.
 - This [site](http://deanhume.github.io/typography/) was featured on the [Device Wall](https://twitter.com/gauntface/status/604029887414829057/photo/1) at Google I/O 2015.
 
 ![Google I/O Device Wall](https://raw.githubusercontent.com/deanhume/typography/master/images/device-wall-small.jpg)
+
+## License
+
+[![CC0](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
+
