@@ -1,4 +1,4 @@
-# Awesome Web Typography [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)  [![Build Status](https://travis-ci.org/deanhume/typography.svg?branch=master)](https://travis-ci.org/deanhume/typography)
+# Awesome Web Typography [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)  [![Build Status](https://api.travis-ci.org/deanhume/typography.svg?branch=master)](https://travis-ci.org/deanhume/typography)
 
 
 A curated collection of awesome web typography articles.
@@ -70,5 +70,5 @@ A curated collection of awesome web typography articles.
 
 ## License
 
-[![CC0](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
+[![CC0](https://licensebuttons.net/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
 
