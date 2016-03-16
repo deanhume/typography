@@ -5,6 +5,8 @@ A curated collection of awesome web typography articles.
 
 ## Articles
 
+- [The New Web Typography](https://robinrendle.com/essays/new-web-typography/)
+- [Tools And Resources For A More Meaningful Web Typography](https://www.smashingmagazine.com/2016/03/meaningful-web-typography/)
 - [A more modern scale for Web Typography](http://typecast.com/blog/a-more-modern-scale-for-web-typography)
 - [Better web typography in 13 simple steps](http://www.creativebloq.com/typography/better-web-typography-few-simple-steps-5132803)
 - [Choosing web fonts: 15 expert tips](http://www.creativebloq.com/web-design/choose-web-fonts-1233034)
@@ -25,6 +27,7 @@ A curated collection of awesome web typography articles.
 - [Typeface Mechanics](https://frerejones.com/blog/typeface-mechanics-001/)
 
 ## Web Fonts & Web Performance
+- [Controlling Font Performance with font-display](https://developers.google.com/web/updates/2016/02/font-display)
 - [Lightning Fast Font Loading Techniques](https://davidwalsh.name/font-loading)
 - [Loading webfonts with high performance on responsive websites](http://bdadam.com/blog/loading-webfonts-with-high-performance.html)
 - [Font Loading Revisited with Font Events](https://www.filamentgroup.com/lab/font-events.html)
@@ -71,4 +74,3 @@ A curated collection of awesome web typography articles.
 ## License
 
 [![CC0](https://licensebuttons.net/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
-
