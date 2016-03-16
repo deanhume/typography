@@ -10,7 +10,7 @@ A curated collection of awesome web typography articles.
 - [A more modern scale for Web Typography](http://typecast.com/blog/a-more-modern-scale-for-web-typography)
 - [Better web typography in 13 simple steps](http://www.creativebloq.com/typography/better-web-typography-few-simple-steps-5132803)
 - [Choosing web fonts: 15 expert tips](http://www.creativebloq.com/web-design/choose-web-fonts-1233034)
-- [The Good, The Bad And The Great Examples Of Web Typography](http://www.smashingmagazine.com/2014/12/the-good-the-bad-and-the-great-examples-of-web-typography/)
+- [The Good, The Bad And The Great Examples Of Web Typography](https://www.smashingmagazine.com/2014/12/the-good-the-bad-and-the-great-examples-of-web-typography/)
 - [W3C Typography on the Web](http://www.w3.org/wiki/Typography_on_the_Web)
 - [Web Fonts Performance: Making Pretty, Fast](https://www.igvita.com/2012/09/12/web-fonts-performance-making-pretty-fast/)
 - [Font Smoothing](https://davidwalsh.name/font-smoothing)
