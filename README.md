@@ -25,6 +25,8 @@ A curated collection of awesome web typography articles.
 - [26 digital typography rules for beginners](https://medium.com/product-design-ux-ui/26-digital-typography-rules-for-beginners-a04c6a5aaff3)
 - [Variable Fonts for Responsive Design](http://alistapart.com/blog/post/variable-fonts-for-responsive-design)
 - [Typeface Mechanics](https://frerejones.com/blog/typeface-mechanics-001/)
+- [Truly Fluid Typography With vh And vw Units](https://www.smashingmagazine.com/2016/05/fluid-typography/)
+- [Viewport Based Typography](http://zellwk.com/blog/viewport-based-typography/)
 
 ## Web Fonts & Web Performance
 - [Controlling Font Performance with font-display](https://developers.google.com/web/updates/2016/02/font-display)
@@ -35,6 +37,7 @@ A curated collection of awesome web typography articles.
 - [Better @font-face with Font Load Events](https://dev.opera.com/articles/better-font-face/)
 - [Better webfont loading with using localStorage and providing WOFF2 support](http://bdadam.com/blog/better-webfont-loading-with-localstorage-and-woff2.html)
 - [Using Web Fonts the Best Way (in 2015)](https://helloanselm.com/2015/using-webfonts-in-2015/)
+- [Web Font Loading Patterns](https://www.bramstein.com/writing/web-font-loading-patterns.html)
 
 ## Tools
 - [A simple plugin to keep font-size in proportion with it's containers size](https://github.com/jkroso/flowtype)
@@ -47,6 +50,7 @@ A curated collection of awesome web typography articles.
 - [Type­set.js - A typographic pre-processor for your html which uses zero client-side JavaScript](https://blot.im/typeset/)
 - [brick.im](https://github.com/alfredxing/brick)
 - [Typebase.css](http://devinhunt.github.io/typebase.css/)
+- [Google WebFonts Helper](https://google-webfonts-helper.herokuapp.com/fonts/aguafina-script?subsets=latin)
 
 ## Books
 - [On Web Typography](https://abookapart.com/products/on-web-typography)
@@ -54,6 +58,7 @@ A curated collection of awesome web typography articles.
 - [The Elements of Typographic Style](https://www.amazon.co.uk/Elements-Typographic-Style-Robert-Bringhurst/dp/0881792063/276-3263060-1517824?ie=UTF8&*Version*=1&*entries*=0)
 - [The Elements of Typographic Style - Online Version](http://webtypography.net/)
 - [Practical Typography](http://practicaltypography.com/)
+- [Combining Typefaces: Free guide to great typography](http://blog.typekit.com/2016/04/29/combining-typefaces-free-guide-to-great-typography/)
 
 ## Font Combinations
 - [Type Genius](http://www.typegenius.com/)
