@@ -130,7 +130,7 @@ h1,ul{margin-top:0}.button,.columns{box-sizing:border-box}.columns{width:100%;fl
       				var url = 'https://deanhume.azurewebsites.net/push/SaveSubscription?subscriptionId=' + subscription.subscriptionId;
       				fetch(url, {
       					method: 'get',
-      					mode: 'cors'
+					      mode: 'no-cors'
       				}).then(function(response) {
       					console.log('Subscription saved successfully: ', response.text());
       				}).catch(function(err) {

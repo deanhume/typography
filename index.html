@@ -107,7 +107,7 @@ h1,p,ul{margin-top:0}.columns{width:100%;box-sizing:border-box;float:left}html{f
 				var url = 'https://deanhume.azurewebsites.net/push/SaveSubscription?subscriptionId=' + subscription.subscriptionId;
 				fetch(url, {
 					method: 'get',
-					mode: 'cors'
+					mode: 'no-cors'
 				}).then(function(response) {
 					console.log('Subscription saved successfully: ', response.text());
 				}).catch(function(err) {
