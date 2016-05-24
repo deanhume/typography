@@ -30,7 +30,7 @@
     networkTimeoutSeconds: 4
   });
 
-  toolbox.router.get('typography/stylesheets/(.*)', global.toolbox.cacheFirst, {
+  toolbox.router.get('/typography/stylesheets/(.*)', global.toolbox.cacheFirst, {
     cache: {
       name: 'stylesheets',
       maxEntries: 10,
