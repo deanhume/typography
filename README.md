@@ -11,7 +11,7 @@ A curated collection of awesome web typography articles.
 - [Better web typography in 13 simple steps](http://www.creativebloq.com/typography/better-web-typography-few-simple-steps-5132803)
 - [Choosing web fonts: 15 expert tips](http://www.creativebloq.com/web-design/choose-web-fonts-1233034)
 - [The Good, The Bad And The Great Examples Of Web Typography](https://www.smashingmagazine.com/2014/12/the-good-the-bad-and-the-great-examples-of-web-typography/)
-- [W3C Typography on the Web](http://www.w3.org/wiki/Typography_on_the_Web)
+- [W3C Typography on the Web](https://www.w3.org/wiki/Typography_on_the_Web)
 - [Web Fonts Performance: Making Pretty, Fast](https://www.igvita.com/2012/09/12/web-fonts-performance-making-pretty-fast/)
 - [Font Smoothing](https://davidwalsh.name/font-smoothing)
 - [Font Smoothing Explained](http://szafranek.net/works/articles/font-smoothing-explained/)
@@ -37,7 +37,7 @@ A curated collection of awesome web typography articles.
 - [Better @font-face with Font Load Events](https://dev.opera.com/articles/better-font-face/)
 - [Better webfont loading with using localStorage and providing WOFF2 support](http://bdadam.com/blog/better-webfont-loading-with-localstorage-and-woff2.html)
 - [Using Web Fonts the Best Way (in 2015)](https://helloanselm.com/2015/using-webfonts-in-2015/)
-- [Web Font Loading Patterns](https://www.bramstein.com/writing/web-font-loading-patterns.html)
+- [Web Font Loading Patterns](http://bramstein.com/writing/web-font-loading-patterns.html)
 
 ## Tools
 - [A simple plugin to keep font-size in proportion with it's containers size](https://github.com/jkroso/flowtype)
@@ -55,7 +55,7 @@ A curated collection of awesome web typography articles.
 ## Books
 - [On Web Typography](https://abookapart.com/products/on-web-typography)
 - [Thinking with Type](http://www.thinkingwithtype.com/)
-- [The Elements of Typographic Style](https://www.amazon.co.uk/Elements-Typographic-Style-Robert-Bringhurst/dp/0881792063/276-3263060-1517824?ie=UTF8&*Version*=1&*entries*=0)
+- [The Elements of Typographic Style](https://www.amazon.co.uk/Elements-Typographic-Style-Robert-Bringhurst/dp/0881792063/)
 - [The Elements of Typographic Style - Online Version](http://webtypography.net/)
 - [Practical Typography](http://practicaltypography.com/)
 - [Combining Typefaces: Free guide to great typography](http://blog.typekit.com/2016/04/29/combining-typefaces-free-guide-to-great-typography/)
