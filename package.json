@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "bower": "^1.7.9",
+    "grunt": "*",
+    "grunt-cli": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-cssmin": "*",
+    "grunt-critical": "*",
+    "grunt-critical-css": "*",
+    "sw-toolbox": "^3.1.1"
+  }
+}

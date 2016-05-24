@@ -8,8 +8,17 @@
 	<link rel="stylesheet" href="stylesheets/skeleton.min.css">
 	<link rel="stylesheet" href="stylesheets/normalize.min.css">
 	<link rel="stylesheet" href="stylesheets/home.min.css">
-	<link href="//fonts.googleapis.com/css?family=Playfair+Display:900|Fauna+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:900|Fauna+One" rel="stylesheet">
+	<link rel="manifest" href="/manifest.json">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="application-name" content="Web Typography">
+	<meta name="apple-mobile-web-app-title" content="Web Typography">
+	<meta name="theme-color" content="#eaba22">
+	<meta name="msapplication-navbutton-color" content="#eaba22">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="msapplication-starturl" content="/index.html">
 </head>
 <body>
 
@@ -81,6 +90,33 @@
   ga('require', 'displayfeatures');
   ga('send', 'pageview');
 </script>
-<script src="service-worker.js"></script>
+<script>
+// Register the service worker
+if ('serviceWorker' in navigator) {
+	navigator.serviceWorker.register('./service-worker.js').then(function(registration) {
+		// Registration was successful
+		console.log('ServiceWorker registration successful with scope: ', registration.scope);
+			registration.pushManager.subscribe({userVisibleOnly: true}).then(function(subscription){
+			isPushEnabled = true;
+			console.log("subscription.subscriptionId: ", subscription.subscriptionId);
+			console.log("subscription.endpoint: ", subscription.endpoint);
+
+			// Save the subscription Id - Fetch API FTW!
+			var url = 'https://deanhume.azurewebsites.net/push/SaveSubscription?subscriptionId=' + subscription.subscriptionId;
+			fetch(url, {
+				method: 'get',
+				mode: 'cors'
+			}).then(function(response) {
+				console.log('Subscription saved successfully: ', response.text());
+			}).catch(function(err) {
+				console.log('There was an issue saving the subscription details: ', err);
+			});
+		});
+	}).catch(function(err) {
+		// registration failed :(
+			console.log('ServiceWorker registration failed: ', err);
+		});
+}
+</script>
 </body>
 </html>

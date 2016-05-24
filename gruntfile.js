@@ -24,17 +24,17 @@ grunt.initConfig({
                     height: 900
                 },
                 files: [
-                    {src: ['index-critical.html'], dest: 'index.html'},
-                    {src: ['articles-critical.html'], dest: 'articles.html'},
-                    {src: ['font-performance-critical.html'], dest: 'font-performance.html'},
-                    {src: ['about-critical.html'], dest: 'about.html'},
-                    {src: ['typography-books-critical.html'], dest: 'typography-books.html'},
-                    {src: ['web-font-combinations-critical.html'], dest: 'web-font-combinations.html'},
-                    {src: ['web-font-tools-critical.html'], dest: 'web-font-tools.html'}
+                    {src: ['src/index.html'], dest: 'index.html'},
+                    {src: ['src/articles.html'], dest: 'articles.html'},
+                    {src: ['src/font-performance.html'], dest: 'font-performance.html'},
+                    {src: ['src/about.html'], dest: 'about.html'},
+                    {src: ['src/typography-books.html'], dest: 'typography-books.html'},
+                    {src: ['src/web-font-combinations.html'], dest: 'web-font-combinations.html'},
+                    {src: ['src/web-font-tools.html'], dest: 'web-font-tools.html'}
                 ]
             }
         }
-    })
+    });
 
     // Load the plugins
     grunt.loadNpmTasks('grunt-critical');

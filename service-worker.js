@@ -1,31 +1,32 @@
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('service-worker.js').then(function(registration) {
-	// Registration was successful
-    console.log('ServiceWorker registration successful with scope: ',    registration.scope);
-	registration.pushManager.subscribe({userVisibleOnly: true}).then(function(subscription){
-    isPushEnabled = true;
-		console.log("subscription.subscriptionId: ", subscription.subscriptionId);
-		console.log("subscription.endpoint: ", subscription.endpoint);
+(global => {
+  'use strict';
 
-		// Save the subscription Id - Fetch API FTW!
-		var url = 'https://deanhume.azurewebsites.net/push/SaveSubscription?subscriptionId=' + subscription.subscriptionId;
-		fetch(url, {
-			method: 'get',
-			mode: 'cors'
-		}).then(function(response) {
-			console.log('Subscription saved successfully: ', response.text());
-		}).catch(function(err) {
-			console.log('There was an issue saving the subscription details: ', err);
-		});
+  // Load the sw-toolbox library.
+  importScripts('/bower_components/sw-toolbox/sw-toolbox.js');
 
-	});
+  // Turn on debug logging, visible in the Developer Tools' console.
+  global.toolbox.options.debug = true;
 
-  }).catch(function(err) {
-    // registration failed :(
-    console.log('ServiceWorker registration failed: ', err);
+  // The route for any requests from the googleapis origin
+  toolbox.router.get('/(.*)', global.toolbox.cacheFirst, {
+    cache: {
+      name: 'googleapis',
+      maxEntries: 10,
+      maxAgeSeconds: 86400
+    },
+    origin: /\.googleapis\.com$/,
+    // Set a timeout threshold of 2 seconds
+    networkTimeoutSeconds: 4
   });
-}
 
+  // Ensure that our service worker takes control of the page as soon as possible.
+  global.addEventListener('install', event => event.waitUntil(global.skipWaiting()));
+  global.addEventListener('activate', event => event.waitUntil(global.clients.claim()));
+})(self);
+
+
+
+// The handler for push events
 self.addEventListener('push', function(event) {
   console.log('Received a push message', event);
 
@@ -43,6 +44,7 @@ self.addEventListener('push', function(event) {
    );
 });
 
+// The click handler for notifications
 self.addEventListener('notificationclick', function(event) {
   console.log('On notification click: ', event.notification.tag);
   // Android doesn't close the notification when you click on it

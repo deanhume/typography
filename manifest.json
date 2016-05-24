@@ -1,16 +1,18 @@
-{  
-  "name": "Push Demo",  
-  "short_name": "Push Demo",  
-  "icons": [{  
-    "src": "https://raw.githubusercontent.com/deanhume/typography/gh-pages/icons/typography.png",  
+{
+  "name": "Awesome Web Typography",
+  "short_name": "Web Typography",
+  "lang": "en-GB",
+  "icons": [{
+    "src": "https://raw.githubusercontent.com/deanhume/typography/gh-pages/icons/typography.png",
     "sizes": "192x192",
-    "type": "image/png" 
-    }],  
-    "start_url": "/index.html",  
-    "display": "standalone",  
-    "gcm_sender_id": "578741075796",  
+    "type": "image/png"
+    }],
+    "start_url": "/index.html",
+    "display": "standalone",
+    "theme_color": "#eaba22",
+    "gcm_sender_id": "578741075796",
     "gcm_user_visible_only": true,
     "permissions": [
     "gcm"
-    ]  
+    ]
   }
