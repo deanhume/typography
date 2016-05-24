@@ -55,7 +55,7 @@ A curated collection of awesome web typography articles.
 ## Books
 - [On Web Typography](https://abookapart.com/products/on-web-typography)
 - [Thinking with Type](http://www.thinkingwithtype.com/)
-- [The Elements of Typographic Style](https://www.amazon.co.uk/Elements-Typographic-Style-Robert-Bringhurst/dp/0881792063/)
+- [The Elements of Typographic Style](https://www.amazon.co.uk/Elements-Typographic-Style-Robert-Bringhurst/dp/0881792063)
 - [The Elements of Typographic Style - Online Version](http://webtypography.net/)
 - [Practical Typography](http://practicaltypography.com/)
 - [Combining Typefaces: Free guide to great typography](http://blog.typekit.com/2016/04/29/combining-typefaces-free-guide-to-great-typography/)
