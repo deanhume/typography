@@ -21,7 +21,6 @@
 	<meta name="msapplication-starturl" content="/index.html">
 </head>
 <body>
-
 	<!-- header -->
 	<div class="navButtons">
 		<a href="index.html" class="button">Home</a>
@@ -30,34 +29,27 @@
 			<img class="github" src="icons/github-icon.svg" />&nbsp;
 		</a>
 	</div>
-
 	<!-- header -->
 	<section class="header">
 		<h1>Web <br>Typography</h1>
 		<p>Find resources that help you build beautiful websites using Web Fonts.</p>
 		<hr>
 	</section>
-
 	<!-- articles -->
 	<a class="titles" href="articles.html">Articles</a>
 	<p>A pick of some of the best typography articles from around the web.</p>
-
 	<!--performance -->
 	<a class="titles" href="font-performance.html">Font Performance</a>
 	<p>Introducing fonts to a web page can have an impact on the page load times. Find out how to reduce this overhead.</p>
-
 	<!-- tools -->
 	<a class="titles" href="web-font-tools.html">Tools</a>
 	<p>Looking for the best web typography tools? Look no further than this collection of tools.</p>
-
 	<!-- books -->
 	<a class="titles" href="typography-books.html">Books</a>
 	<p>A great list of web typography books to suit every developer and designer.</p>
-
 	<!-- font -->
 	<a class="titles" href="web-font-combinations.html">Font Combinations</a>
 	<p>Choosing the right font combinations can be tricky. Use this collection of font combinations to help you with your next project.</p>
-
 	<!-- footer -->
 	<footer>
 		<div class="row footerDeets">
@@ -89,34 +81,33 @@
   ga('require', 'linkid', 'linkid.js');
   ga('require', 'displayfeatures');
   ga('send', 'pageview');
-</script>
-<script>
-// Register the service worker
-if ('serviceWorker' in navigator) {
-	navigator.serviceWorker.register('./service-worker.js').then(function(registration) {
-		// Registration was successful
-		console.log('ServiceWorker registration successful with scope: ', registration.scope);
-			registration.pushManager.subscribe({userVisibleOnly: true}).then(function(subscription){
-			isPushEnabled = true;
-			console.log("subscription.subscriptionId: ", subscription.subscriptionId);
-			console.log("subscription.endpoint: ", subscription.endpoint);
 
-			// Save the subscription Id - Fetch API FTW!
-			var url = 'https://deanhume.azurewebsites.net/push/SaveSubscription?subscriptionId=' + subscription.subscriptionId;
-			fetch(url, {
-				method: 'get',
-				mode: 'cors'
-			}).then(function(response) {
-				console.log('Subscription saved successfully: ', response.text());
-			}).catch(function(err) {
-				console.log('There was an issue saving the subscription details: ', err);
+	// Register the service worker
+	if ('serviceWorker' in navigator) {
+		navigator.serviceWorker.register('./service-worker.js').then(function(registration) {
+			// Registration was successful
+			console.log('ServiceWorker registration successful with scope: ', registration.scope);
+				registration.pushManager.subscribe({userVisibleOnly: true}).then(function(subscription){
+				isPushEnabled = true;
+				console.log("subscription.subscriptionId: ", subscription.subscriptionId);
+				console.log("subscription.endpoint: ", subscription.endpoint);
+
+				// Save the subscription Id - Fetch API FTW!
+				var url = 'https://deanhume.azurewebsites.net/push/SaveSubscription?subscriptionId=' + subscription.subscriptionId;
+				fetch(url, {
+					method: 'get',
+					mode: 'cors'
+				}).then(function(response) {
+					console.log('Subscription saved successfully: ', response.text());
+				}).catch(function(err) {
+					console.log('There was an issue saving the subscription details: ', err);
+				});
 			});
-		});
-	}).catch(function(err) {
-		// registration failed :(
-			console.log('ServiceWorker registration failed: ', err);
-		});
-}
+		}).catch(function(err) {
+			// registration failed :(
+				console.log('ServiceWorker registration failed: ', err);
+			});
+	}
 </script>
 </body>
 </html>

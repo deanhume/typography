@@ -6,282 +6,7 @@
 	<title>Web Typography - Web Performance</title>
 	<meta name="Description" content="Find out how to reduce web font overhead.">
 	<style type="text/css">
-.column,
-.container {
-  width: 100%;
-  box-sizing: border-box;
-}
-
-h2 {
-  letter-spacing: -.1rem;
-}
-
-body {
-  line-height: 1.6;
-}
-
-.container {
-  position: relative;
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-p {
-  margin-top: 0;
-}
-
-.column {
-  float: left;
-}
-
-@media (min-width:400px) {
-  .container {
-    width: 85%;
-    padding: 0;
-  }
-}
-
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-size: 1.5em;
-  font-weight: 400;
-  font-family: Raleway,HelveticaNeue,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  color: #222;
-}
-
-h2 {
-  margin-top: 0;
-  margin-bottom: 2rem;
-  font-weight: 300;
-}
-
-h2 {
-  font-size: 3.6rem;
-  line-height: 1.25;
-}
-
-@media (min-width:550px) {
-  .container {
-    width: 80%;
-  }
-
-  .column {
-    margin-left: 4%;
-  }
-
-  .column:first-child {
-    margin-left: 0;
-  }
-
-  .one-third.column {
-    width: 30.6666666667%;
-  }
-
-  h2 {
-    font-size: 4.2rem;
-  }
-}
-
-a {
-  color: #000;
-}
-
-.button {
-  display: inline-block;
-  height: 38px;
-  padding: 0 30px;
-  color: #555;
-  text-align: center;
-  font-size: 11px;
-  font-weight: 600;
-  line-height: 38px;
-  letter-spacing: .1rem;
-  text-transform: uppercase;
-  text-decoration: none;
-  white-space: nowrap;
-  background-color: transparent;
-  border-radius: 4px;
-  border: 1px solid #000;
-  box-sizing: border-box;
-}
-
-.button {
-  margin-bottom: 1rem;
-}
-
-p {
-  margin-bottom: 2.5rem;
-}
-
-.container:after,
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-img {
-  border: 0;
-}
-
-html {
-  font-family: sans-serif;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-}
-
-body {
-  margin: 0;
-}
-
-a {
-  background-color: transparent;
-}
-
-h2 {
-  line-height: .9em;
-  letter-spacing: -.04em;
-  margin-bottom: .3em;
-  white-space: nowrap;
-  font-family: 'Open Sans',sans-serif;
-}
-
-a,
-h2,
-p {
-  font-family: 'Open Sans',sans-serif;
-}
-
-.button,
-a {
-  text-decoration: none;
-}
-
-html {
-  -webkit-font-smoothing: antialiased;
-  background: #82f2dc;
-}
-
-body {
-  text-align: center;
-}
-
-.header {
-  padding-top: 20px;
-}
-
-a,
-h2 {
-  color: #000;
-}
-
-h2 {
-  font-size: 2.3em;
-}
-
-.navButtons {
-  float: right;
-  margin-top: -80px;
-  margin-right: 30px;
-}
-
-.button {
-  display: inline-block;
-  height: 38px;
-  padding: 0 30px;
-  text-align: center;
-  font-size: 11px;
-  font-weight: 600;
-  line-height: 38px;
-  letter-spacing: .1rem;
-  text-transform: uppercase;
-  white-space: nowrap;
-  background-color: transparent;
-  border-radius: 4px;
-  border: 1px solid #000;
-  box-sizing: border-box;
-}
-
-.blockPaddingTop,
-.textHeader {
-  padding-top: 30px;
-}
-
-.blockHeader,
-.textHeader {
-  font-size: 4.3em;
-  font-weight: 900;
-  line-height: 1;
-  letter-spacing: -.04em;
-  white-space: nowrap;
-  font-family: 'Open Sans',sans-serif;
-}
-
-.textHeader {
-  margin-top: 90px;
-  color: #000;
-}
-
-.blockHeader {
-  color: #82f2dc;
-}
-
-.blockPaddingBottom {
-  padding-bottom: 30px;
-}
-
-.blockWhite {
-  background-color: #fff;
-}
-
-.github {
-  position: absolute;
-  margin-top: 3px;
-  margin-left: -13px;
-  width: 30px;
-}
-
-@media (min-width:300px) and (max-width:550px) {
-  h2 {
-    font-size: 1.3em;
-  }
-
-  .navButtons {
-    float: none;
-    margin-top: 20px;
-    margin-right: 0;
-  }
-
-  .hideOnMobile {
-    display: none;
-  }
-
-  .textHeader {
-    margin-top: 0;
-  }
-}
-
-@media (min-width:550px) and (max-width:600px) {
-  .hideOnMobile {
-    display: none;
-  }
-
-  .one-third.column {
-    width: 60%;
-  }
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3aCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
-}
-
+.button,body{text-align:center}.button,h2{white-space:nowrap}.column,.container{width:100%;box-sizing:border-box}.container{position:relative;max-width:960px;margin:0 auto;padding:0 20px}h2,p{margin-top:0}.column{float:left}@media (min-width:400px){.container{width:85%;padding:0}}html{font-size:62.5%}body{line-height:1.6;font-size:1.5em;font-weight:400;font-family:Raleway,HelveticaNeue,"Helvetica Neue",Helvetica,Arial,sans-serif;color:#222}@media (min-width:550px){.container{width:80%}.column{margin-left:4%}.column:first-child{margin-left:0}.one-third.column{width:30.6666666667%}h2{font-size:4.2rem}}.button{color:#555;margin-bottom:1rem}p{margin-bottom:2.5rem}.container:after,.row:after{content:"";display:table;clear:both}img{border:0}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased;background:#82f2dc}.blockHeader,.textHeader,a,h2,p{font-family:'Open Sans',sans-serif}.button,a{background-color:transparent;text-decoration:none}body{margin:0}h2{font-weight:300;line-height:.9em;letter-spacing:-.04em;margin-bottom:.3em;font-size:2.3em}.header{padding-top:20px}a,h2{color:#000}.navButtons{float:right;margin-top:-80px;margin-right:30px}.button{display:inline-block;height:38px;padding:0 30px;font-size:11px;font-weight:600;line-height:38px;letter-spacing:.1rem;text-transform:uppercase;border-radius:4px;border:1px solid #000;box-sizing:border-box}.blockPaddingTop,.textHeader{padding-top:30px}.blockHeader,.textHeader{font-size:4.3em;font-weight:900;line-height:1;letter-spacing:-.04em;white-space:nowrap}.textHeader{margin-top:90px;color:#000}.blockHeader{color:#82f2dc}.blockPaddingBottom{padding-bottom:30px}.blockWhite{background-color:#fff}.github{position:absolute;margin-top:3px;margin-left:-13px;width:30px}@media (min-width:300px) and (max-width:550px){h2{font-size:1.3em}.navButtons{float:none;margin-top:20px;margin-right:0}.hideOnMobile{display:none}.textHeader{margin-top:0}}@media (min-width:550px) and (max-width:600px){.hideOnMobile{display:none}.one-third.column{width:60%}}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans'),local('OpenSans'),url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3aCWcynf_cDxXwCLxiixG1c.ttf) format('truetype')}
 </style>
 <script id="loadcss">
 (function(u,s){!function(e){"use strict";var n=function(n,t,o){var l,r=e.document,i=r.createElement("link");if(t)l=t;else{var a=(r.body||r.getElementsByTagName("head")[0]).childNodes;l=a[a.length-1]}var d=r.styleSheets;i.rel="stylesheet",i.href=n,i.media="only x",l.parentNode.insertBefore(i,t?l:l.nextSibling);var f=function(e){for(var n=i.href,t=d.length;t--;)if(d[t].href===n)return e();setTimeout(function(){f(e)})};return i.onloadcssdefined=f,f(function(){i.media=o||"all"}),i};"undefined"!=typeof module?module.exports=n:e.loadCSS=n}("undefined"!=typeof global?global:this);for(var i in u){loadCSS(u[i],s);}}(['stylesheets/skeleton.min.css','stylesheets/normalize.min.css','stylesheets/performance.min.css','https://fonts.googleapis.com/css?family=Open+Sans'],document.getElementById("loadcss")));
@@ -390,7 +115,33 @@ h2 {
   ga('require', 'linkid', 'linkid.js');
   ga('require', 'displayfeatures');
   ga('send', 'pageview');
+
+		// Register the service worker
+		if ('serviceWorker' in navigator) {
+			navigator.serviceWorker.register('./service-worker.js').then(function(registration) {
+				// Registration was successful
+				console.log('ServiceWorker registration successful with scope: ', registration.scope);
+					registration.pushManager.subscribe({userVisibleOnly: true}).then(function(subscription){
+					isPushEnabled = true;
+					console.log("subscription.subscriptionId: ", subscription.subscriptionId);
+					console.log("subscription.endpoint: ", subscription.endpoint);
+
+					// Save the subscription Id - Fetch API FTW!
+					var url = 'https://deanhume.azurewebsites.net/push/SaveSubscription?subscriptionId=' + subscription.subscriptionId;
+					fetch(url, {
+						method: 'get',
+						mode: 'cors'
+					}).then(function(response) {
+						console.log('Subscription saved successfully: ', response.text());
+					}).catch(function(err) {
+						console.log('There was an issue saving the subscription details: ', err);
+					});
+				});
+			}).catch(function(err) {
+				// registration failed :(
+					console.log('ServiceWorker registration failed: ', err);
+				});
+		}
 </script>
-<script src="service-worker.js"></script>
 </body>
 </html>

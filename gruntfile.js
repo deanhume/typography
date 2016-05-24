@@ -21,7 +21,8 @@ grunt.initConfig({
                 options: {
                     base: './',
                     width: 1300,
-                    height: 900
+                    height: 900,
+                    minify: true
                 },
                 files: [
                     {src: ['src/index.html'], dest: 'index.html'},

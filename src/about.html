@@ -40,9 +40,7 @@
 			<div class="four columns">
 				<span class="title">About</span>
 			</div>
-
 		</div>
-
 		<!-- footer -->
 		<footer>
 			<div class="row footerDeets">
@@ -72,7 +70,33 @@
   ga('require', 'linkid', 'linkid.js');
   ga('require', 'displayfeatures');
   ga('send', 'pageview');
+
+		// Register the service worker
+		if ('serviceWorker' in navigator) {
+			navigator.serviceWorker.register('./service-worker.js').then(function(registration) {
+				// Registration was successful
+				console.log('ServiceWorker registration successful with scope: ', registration.scope);
+					registration.pushManager.subscribe({userVisibleOnly: true}).then(function(subscription){
+					isPushEnabled = true;
+					console.log("subscription.subscriptionId: ", subscription.subscriptionId);
+					console.log("subscription.endpoint: ", subscription.endpoint);
+
+					// Save the subscription Id - Fetch API FTW!
+					var url = 'https://deanhume.azurewebsites.net/push/SaveSubscription?subscriptionId=' + subscription.subscriptionId;
+					fetch(url, {
+						method: 'get',
+						mode: 'cors'
+					}).then(function(response) {
+						console.log('Subscription saved successfully: ', response.text());
+					}).catch(function(err) {
+						console.log('There was an issue saving the subscription details: ', err);
+					});
+				});
+			}).catch(function(err) {
+				// registration failed :(
+					console.log('ServiceWorker registration failed: ', err);
+				});
+		}
 </script>
-<script src="service-worker.js"></script>
 </body>
 </html>

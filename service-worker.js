@@ -12,9 +12,31 @@
     cache: {
       name: 'googleapis',
       maxEntries: 10,
-      maxAgeSeconds: 86400
+      maxAgeSeconds: 604800
     },
     origin: /\.googleapis\.com$/,
+    // Set a timeout threshold of 2 seconds
+    networkTimeoutSeconds: 4
+  });
+
+  toolbox.router.get('/(.*)', global.toolbox.cacheFirst, {
+    cache: {
+      name: 'fonts',
+      maxEntries: 10,
+      maxAgeSeconds: 604800
+    },
+    origin: /\.fonts.gstatic\.com$/,
+    // Set a timeout threshold of 2 seconds
+    networkTimeoutSeconds: 4
+  });
+
+  // The route for any requests from the googleapis origin
+  toolbox.router.get('/stylesheets/(.*)', global.toolbox.cacheFirst, {
+    cache: {
+      name: 'stylesheets',
+      maxEntries: 10,
+      maxAgeSeconds: 604800
+    },
     // Set a timeout threshold of 2 seconds
     networkTimeoutSeconds: 4
   });
