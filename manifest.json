@@ -7,7 +7,7 @@
     "sizes": "192x192",
     "type": "image/png"
     }],
-    "start_url": "/index.html",
+    "start_url": "index.html",
     "display": "standalone",
     "theme_color": "#eaba22",
     "gcm_sender_id": "578741075796",
