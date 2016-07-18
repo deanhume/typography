@@ -27,6 +27,8 @@ A curated collection of awesome web typography articles.
 - [Typeface Mechanics](https://frerejones.com/blog/typeface-mechanics-001/)
 - [Truly Fluid Typography With vh And vw Units](https://www.smashingmagazine.com/2016/05/fluid-typography/)
 - [Viewport Based Typography](http://zellwk.com/blog/viewport-based-typography/)
+- [Animated Typographic Cheat Sheet](https://www.supremo.tv/typeterms/)
+- [Typography for User Interfaces](https://viljamis.com/2016/typography-for-user-interfaces/)
 
 ## Web Fonts & Web Performance
 - [Controlling Font Performance with font-display](https://developers.google.com/web/updates/2016/02/font-display)
@@ -59,6 +61,7 @@ A curated collection of awesome web typography articles.
 - [The Elements of Typographic Style - Online Version](http://webtypography.net/)
 - [Practical Typography](http://practicaltypography.com/)
 - [Combining Typefaces: Free guide to great typography](http://blog.typekit.com/2016/04/29/combining-typefaces-free-guide-to-great-typography/)
+- [The Typography Handbook](http://typographyhandbook.com/)
 
 ## Font Combinations
 - [Type Genius](http://www.typegenius.com/)
@@ -70,6 +73,7 @@ A curated collection of awesome web typography articles.
 - [Designmodo - Great Font Combinations](http://designmodo.com/great-font-combinations/)
 - [Sessions with Typography](http://www.sessions-with-typography.com)
 - [Google Web Font inspiration in HTML & CSS](http://tobiasahlin.com/typesource/)
+- [Google Font Pairing Tool](http://www.ourownthing.co.uk/fontpairing/)
 
 ## Featured
 - This [site](http://deanhume.github.io/typography/) was featured on the [Device Wall](https://twitter.com/gauntface/status/604029887414829057/photo/1) at Google I/O 2015.
