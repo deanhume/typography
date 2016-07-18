@@ -76,10 +76,10 @@ A curated collection of awesome web typography articles.
 - [Google Font Pairing Tool](http://www.ourownthing.co.uk/fontpairing/)
 
 ## Featured
-- This [site](http://deanhume.github.io/typography/) was featured on the [Device Wall](https://twitter.com/gauntface/status/604029887414829057/photo/1) at Google I/O 2015.
+- This [site](https://deanhume.github.io/typography/) was featured on the [Device Wall](https://twitter.com/gauntface/status/604029887414829057/photo/1) at Google I/O 2015.
 
 ![Google I/O Device Wall](https://raw.githubusercontent.com/deanhume/typography/master/images/device-wall-small.jpg)
 
 ## License
 
-[![CC0](https://licensebuttons.net/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
+[![CC0](https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
