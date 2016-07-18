@@ -153,6 +153,11 @@ hr {
 	width: 30px;
 }
 
+.boundary{
+	margin-top: 200px;
+	padding-bottom: 200px;
+}
+
 /* Mobile */
 @media (min-width: 300px) and (max-width: 600px) {
 	#foreground {
@@ -208,6 +213,11 @@ hr {
 	.footerDeets ul {
 		text-align: center;
 	}
+
+	.boundary{
+		margin-top: 100px;
+		padding-bottom: 0px;
+	}
 }
 
 /* Tablet */
@@ -241,5 +251,17 @@ hr {
 		text-align: inherit;
 		margin-right: 0px;
 	}
+
+	.boundary{
+		margin-top: 100px;
+		padding-bottom: 300px;
+	}
 }
 
+/* Laptop */
+@media (min-width: 1001px) and (max-width: 1300px) {
+	.boundary{
+		margin-top: 300px;
+		padding-bottom: 400px;
+	}
+}
