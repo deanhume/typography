@@ -5,6 +5,12 @@ A curated collection of awesome web typography articles.
 
 ## Articles
 
+- [The Future of Web Fonts](https://viljamis.com/2016/the-future-of-web-fonts/)
+- [Your Body Text Is Too Small](https://medium.com/@xtianmiller/your-body-text-is-too-small-5e02d36dc902#.w1wdaeqzo)
+- [Methods for Controlling Spacing in Web Typography](https://css-tricks.com/methods-controlling-spacing-web-typography/)
+- [Bold or Italic](http://practicaltypography.com/bold-or-italic.html)
+- [Webfonts on the Prairie](http://alistapart.com/article/webfonts-on-the-prairie)
+- [Typography is impossible](https://medium.engineering/typography-is-impossible-5872b0c7f891#.5tnat6wy5)
 - [The New Web Typography](https://robinrendle.com/essays/new-web-typography/)
 - [Tools And Resources For A More Meaningful Web Typography](https://www.smashingmagazine.com/2016/03/meaningful-web-typography/)
 - [A more modern scale for Web Typography](http://typecast.com/blog/a-more-modern-scale-for-web-typography)
@@ -42,7 +48,9 @@ A curated collection of awesome web typography articles.
 - [Web Font Loading Patterns](http://bramstein.com/writing/web-font-loading-patterns.html)
 
 ## Tools
+- [The State of Web Type](http://stateofwebtype.com/)
 - [A simple plugin to keep font-size in proportion with it's containers size](https://github.com/jkroso/flowtype)
+- [Type Rendering Mix](http://typerendering.com/)
 - [Web Font Loader](https://developers.google.com/fonts/docs/webfont_loader)
 - [Preventing the Performance Hit from Custom Fonts](https://css-tricks.com/preventing-the-performance-hit-from-custom-fonts/)
 - [Web Font Optimization](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/webfont-optimization?hl=en)
