@@ -2,7 +2,7 @@
   'use strict';
 
   // Load the sw-toolbox library.
-  importScripts('bower_components/sw-toolbox/sw-toolbox.js');
+  importScripts('./bower_components/sw-toolbox/sw-toolbox.js');
 
   // Turn on debug logging, visible in the Developer Tools' console.
   global.toolbox.options.debug = true;
