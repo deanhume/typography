@@ -46,7 +46,6 @@
 })(self);
 
 
-
 // The handler for push events
 self.addEventListener('push', function(event) {
   console.log('Received a push message', event);
