@@ -72,7 +72,7 @@ A curated collection of awesome web typography articles.
 - [The Typography Handbook](http://typographyhandbook.com/)
 
 ## Font Combinations
-- [Type Genius](https://www.canva.com/font-combinations/)
+- [Font Combinations](https://www.canva.com/font-combinations/)
 - [Google web fonts in action](http://femmebot.github.io/google-type/)
 - [Beautiful Web Type](http://hellohappy.org/beautiful-web-type/)
 - [Google Font Combinations](http://briangardner.com/google-font-combinations/)
