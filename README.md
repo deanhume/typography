@@ -48,14 +48,13 @@ A curated collection of awesome web typography articles.
 - [Web Font Loading Patterns](http://bramstein.com/writing/web-font-loading-patterns.html)
 
 ## Tools
-- [The State of Web Type](http://stateofwebtype.com/)
+- [The State of Web Type - Up-to-date data on support for type and typographic features on the web](http://stateofwebtype.com/)
 - [A simple plugin to keep font-size in proportion with it's containers size](https://github.com/jkroso/flowtype)
 - [Type Rendering Mix](http://typerendering.com/)
 - [Web Font Loader](https://developers.google.com/fonts/docs/webfont_loader)
 - [Preventing the Performance Hit from Custom Fonts](https://css-tricks.com/preventing-the-performance-hit-from-custom-fonts/)
 - [Web Font Optimization](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/webfont-optimization?hl=en)
 - [Font Face and Performance](http://www.stevesouders.com/blog/2009/10/13/font-face-and-performance/)
-- [The State of Web Type - Up-to-date data on support for type and typographic features on the web](http://stateofwebtype.com/)
 - [Normalize-Opentype.css - Adds OpenType features—ligatures, kerning, and more—to Normalize.css.](https://github.com/kennethormandy/normalize-opentype.css)
 - [Type­set.js - A typographic pre-processor for your html which uses zero client-side JavaScript](https://blot.im/typeset/)
 - [brick.im](https://github.com/alfredxing/brick)
