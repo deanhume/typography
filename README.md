@@ -67,14 +67,14 @@ A curated collection of awesome web typography articles.
 - [The Elements of Typographic Style](https://www.amazon.co.uk/Elements-Typographic-Style-Robert-Bringhurst/dp/0881792063)
 - [The Elements of Typographic Style - Online Version](http://webtypography.net/)
 - [Practical Typography](http://practicaltypography.com/)
-- [Combining Typefaces: Free guide to great typography](http://blog.typekit.com/2016/04/29/combining-typefaces-free-guide-to-great-typography/)
+- [Combining Typefaces: Free guide to great typography](https://blog.typekit.com/2016/04/29/combining-typefaces-free-guide-to-great-typography/)
 - [The Typography Handbook](http://typographyhandbook.com/)
 
 ## Font Combinations
 - [Font Combinations](https://www.canva.com/font-combinations/)
 - [Google web fonts in action](http://femmebot.github.io/google-type/)
-- [Beautiful Web Type](http://hellohappy.org/beautiful-web-type/)
-- [Google Font Combinations](http://briangardner.com/google-font-combinations/)
+- [Beautiful Web Type](http://chad.is/beautiful-web-type/)
+- [Google Font Combinations](https://briangardner.com/google-font-combinations/)
 - [Top 5 Google Fonts](http://techdissected.com/web-and-computing/design/top-5-google-font-combinations/)
 - [100 Days of Fonts](http://100daysoffonts.com/)
 - [Designmodo - Great Font Combinations](https://designmodo.com/great-font-combinations/)
