@@ -35,6 +35,7 @@ A curated collection of awesome web typography articles.
 - [Viewport Based Typography](https://zellwk.com/blog/viewport-based-typography/)
 - [Animated Typographic Cheat Sheet](https://www.supremo.tv/typeterms/)
 - [Typography for User Interfaces](https://viljamis.com/2016/typography-for-user-interfaces/)
+- [93 most popular premium fonts alternative google fonts](http://www.designtheway.com/most-used-fonts-alternative-google-fonts/)
 
 ## Web Fonts & Web Performance
 - [Controlling Font Performance with font-display](https://developers.google.com/web/updates/2016/02/font-display)
