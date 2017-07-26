@@ -5,6 +5,8 @@ A curated collection of awesome web typography articles.
 
 ## Articles
 
+- [No @font-face Syntax will ever be Bulletproof, Nor Should It Be](https://calendar.perfplanet.com/2016/no-font-face-bulletproof-syntax/)
+- [Font Aliasing, or how to rename a font in CSS](https://www.zachleat.com/web/rename-font/)
 - [The Future of Web Fonts](https://viljamis.com/2016/the-future-of-web-fonts/)
 - [Your Body Text Is Too Small](https://medium.com/@xtianmiller/your-body-text-is-too-small-5e02d36dc902#.w1wdaeqzo)
 - [Methods for Controlling Spacing in Web Typography](https://css-tricks.com/methods-controlling-spacing-web-typography/)
@@ -35,6 +37,7 @@ A curated collection of awesome web typography articles.
 - [Viewport Based Typography](https://zellwk.com/blog/viewport-based-typography/)
 - [Animated Typographic Cheat Sheet](https://www.supremo.tv/typeterms/)
 - [Typography for User Interfaces](https://viljamis.com/2016/typography-for-user-interfaces/)
+- [Loading Web Fonts Asynchronously](https://calendar.perfplanet.com/2016/loading-web-fonts-asynchronously/)
 
 ## Web Fonts & Web Performance
 - [Controlling Font Performance with font-display](https://developers.google.com/web/updates/2016/02/font-display)
@@ -46,6 +49,7 @@ A curated collection of awesome web typography articles.
 - [Better webfont loading with using localStorage and providing WOFF2 support](http://bdadam.com/blog/better-webfont-loading-with-localstorage-and-woff2.html)
 - [Using Web Fonts the Best Way (in 2015)](https://helloanselm.com/2015/using-webfonts-in-2015/)
 - [Web Font Loading Patterns](http://bramstein.com/writing/web-font-loading-patterns.html)
+- [Performance and Web Typography - Video](https://www.youtube.com/watch?v=emLfXChvVPQ)
 
 ## Tools
 - [The State of Web Type - Up-to-date data on support for type and typographic features on the web](http://stateofwebtype.com/)
@@ -60,6 +64,7 @@ A curated collection of awesome web typography articles.
 - [brick.im](https://github.com/alfredxing/brick)
 - [Typebase.css](http://devinhunt.github.io/typebase.css/)
 - [Google WebFonts Helper](https://google-webfonts-helper.herokuapp.com/fonts/aguafina-script?subsets=latin)
+- [Using Custom Fonts in Emails](https://github.com/crocodilejs/custom-fonts-in-emails)
 
 ## Books
 - [On Web Typography](https://abookapart.com/products/on-web-typography)
@@ -71,6 +76,7 @@ A curated collection of awesome web typography articles.
 - [The Typography Handbook](http://typographyhandbook.com/)
 
 ## Font Combinations
+- [Mixfont](https://www.mixfont.com/)
 - [Font Combinations](https://www.canva.com/font-combinations/)
 - [Google web fonts in action](http://femmebot.github.io/google-type/)
 - [Beautiful Web Type](http://chad.is/beautiful-web-type/)
