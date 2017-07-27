@@ -22,7 +22,6 @@ A curated collection of awesome web typography articles.
 - [W3C Typography on the Web](https://www.w3.org/wiki/Typography_on_the_Web)
 - [Web Fonts Performance: Making Pretty, Fast](https://www.igvita.com/2012/09/12/web-fonts-performance-making-pretty-fast/)
 - [Font Smoothing](https://davidwalsh.name/font-smoothing)
-- [Font Smoothing Explained](https://szafranek.net/works/articles/font-smoothing-explained/)
 - [The State of Web Type](https://dev.opera.com/articles/state-of-web-type/)
 - [Dashes in Web Typography](https://viljamis.com/dashes/)
 - [Scale & Rhythm in Typography](http://lamb.cc/typograph/)
@@ -68,7 +67,6 @@ A curated collection of awesome web typography articles.
 
 ## Books
 - [On Web Typography](https://abookapart.com/products/on-web-typography)
-- [Thinking with Type](https://www.thinkingwithtype.com/)
 - [The Elements of Typographic Style](https://www.amazon.co.uk/Elements-Typographic-Style-Robert-Bringhurst/dp/0881792063)
 - [The Elements of Typographic Style - Online Version](http://webtypography.net/)
 - [Practical Typography](http://practicaltypography.com/)
