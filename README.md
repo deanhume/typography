@@ -37,7 +37,7 @@ A curated collection of awesome web typography articles.
 - [Typography for User Interfaces](https://viljamis.com/2016/typography-for-user-interfaces/)
 - [Loading Web Fonts Asynchronously](https://calendar.perfplanet.com/2016/loading-web-fonts-asynchronously/)
 - [Font-size: An Unexpectedly Complex CSS Property](https://manishearth.github.io/blog/2017/08/10/font-size-an-unexpectedly-complex-css-property/)
- -[93 most popular premium fonts alternative google fonts](https://www.designtheway.com/most-used-fonts-alternative-google-fonts/)
+ -[93 most popular premium fonts alternative google fonts](https://designtheway.com/most-used-fonts-alternative-google-fonts/)
 
 ## Web Fonts & Web Performance
 - [Controlling Font Performance with font-display](https://developers.google.com/web/updates/2016/02/font-display)
@@ -70,7 +70,7 @@ A curated collection of awesome web typography articles.
 - [On Web Typography](https://abookapart.com/products/on-web-typography)
 - [The Elements of Typographic Style](https://www.amazon.co.uk/Elements-Typographic-Style-Robert-Bringhurst/dp/0881792063)
 - [The Elements of Typographic Style - Online Version](http://webtypography.net/)
-- [Practical Typography](http://practicaltypography.com/)
+- [Practical Typography](https://practicaltypography.com/)
 - [Combining Typefaces: Free guide to great typography](https://blog.typekit.com/2016/04/29/combining-typefaces-free-guide-to-great-typography/)
 - [The Typography Handbook](http://typographyhandbook.com/)
 
