@@ -86,6 +86,11 @@ A curated collection of awesome web typography articles.
 - [Google Web Font inspiration in HTML & CSS](http://tobiasahlin.com/typesource/)
 - [Google Font Pairing Tool](http://www.ourownthing.co.uk/fontpairing/)
 
+## Talks
+- [Golden Rules of Typography on the Web](https://noti.st/rar/mz1rIY/golden-rules-of-typography-on-the-web)
+- [Web Fonts are Rocket Science](https://www.filamentgroup.com/lab/rocket-science.html)
+- [Video Screencast - Font Loading with Zach Leatherman](https://css-tricks.com/video-screencasts/152-font-loading-zach-leatherman/)
+
 ## Featured
 - This [site](https://deanhume.github.io/typography/) was featured on the [Device Wall](https://twitter.com/gauntface/status/604029887414829057/photo/1) at Google I/O 2015.
 
