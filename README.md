@@ -50,6 +50,7 @@ A curated collection of awesome web typography articles.
 - [Using Web Fonts the Best Way (in 2015)](https://helloanselm.com/writings/using-webfonts-in-2015)
 - [Web Font Loading Patterns](http://bramstein.com/writing/web-font-loading-patterns.html)
 - [Performance and Web Typography - Video](https://www.youtube.com/watch?v=emLfXChvVPQ)
+- [Tips for balancing web fonts & page load](https://frontendnews.io/editions/2018-07-25-tips-for-loading-web-fonts)
 
 ## Tools
 - [The State of Web Type - Up-to-date data on support for type and typographic features on the web](http://stateofwebtype.com/)
