@@ -1,8 +1,5 @@
 importScripts('workbox-sw.prod.v1.1.0.js');
 
-console.log(navigator.connection.effectiveType);
-
-
 /**
  * DO NOT EDIT THE FILE MANIFEST ENTRY
  *
