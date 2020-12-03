@@ -88,7 +88,6 @@ A curated collection of awesome web typography articles.
 - [Google Font Pairing Tool](http://www.ourownthing.co.uk/fontpairing/)
 
 ## Talks
-- [Golden Rules of Typography on the Web](https://noti.st/rar/mz1rIY/golden-rules-of-typography-on-the-web)
 - [Web Fonts are Rocket Science](https://www.filamentgroup.com/lab/rocket-science.html)
 - [Video Screencast - Font Loading with Zach Leatherman](https://css-tricks.com/video-screencasts/152-font-loading-zach-leatherman/)
 
