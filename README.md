@@ -1,4 +1,4 @@
-# Awesome Web Typography [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)  [![Build Status](https://api.travis-ci.org/deanhume/typography.svg?branch=master)](https://travis-ci.org/deanhume/typography)
+# Awesome Web Typography [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 
 A curated collection of awesome web typography articles.
@@ -56,6 +56,7 @@ A curated collection of awesome web typography articles.
 - [Font Aliasing, or How to Rename a Font in CSS](https://www.zachleat.com/web/rename-font/)
 - [A Collection of Web Font Loading Recipes](https://www.zachleat.com/web/recipes/)
 - [No @font-face Syntax will ever be Bulletproof, Nor Should It Be](http://calendar.perfplanet.com/2016/no-font-face-bulletproof-syntax/)
+- [Performance and Web Typography](https://www.youtube.com/watch?v=emLfXChvVPQ)
 
 ## Tools
 - [The State of Web Type - Up-to-date data on support for type and typographic features on the web](http://stateofwebtype.com/)
@@ -73,6 +74,7 @@ A curated collection of awesome web typography articles.
 - [Using Custom Fonts in Emails](https://github.com/ladjs/custom-fonts-in-emails)
 - [Font Face Observer is a fast and simple web font loader](https://fontfaceobserver.com/)
 - [MixFont A Modern Font Generator](https://www.mixfont.com/)
+- [How to use custom fonts in emails](https://github.com/forwardemail/custom-fonts-in-emails)
 
 ## Books
 - [On Web Typography](https://abookapart.com/products/on-web-typography)
