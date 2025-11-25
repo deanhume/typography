@@ -72,6 +72,7 @@ A curated collection of awesome web typography articles.
 - [Typebase.css](http://devinhunt.github.io/typebase.css/)
 - [Google WebFonts Helper](https://google-webfonts-helper.herokuapp.com/fonts/aguafina-script?subsets=latin)
 - [Using Custom Fonts in Emails](https://github.com/ladjs/custom-fonts-in-emails)
+- [Typographist — Modular scale calculator API with config validation](https://github.com/typographist)
 - [Font Face Observer is a fast and simple web font loader](https://fontfaceobserver.com/)
 - [MixFont A Modern Font Generator](https://www.mixfont.com/)
 - [How to use custom fonts in emails](https://github.com/forwardemail/custom-fonts-in-emails)
