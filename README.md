@@ -37,7 +37,8 @@ A curated collection of awesome web typography articles.
 - [Typography for User Interfaces](https://viljamis.com/2016/typography-for-user-interfaces/)
 - [Loading Web Fonts Asynchronously](https://calendar.perfplanet.com/2016/loading-web-fonts-asynchronously/)
 - [Font-size: An Unexpectedly Complex CSS Property](https://manishearth.github.io/blog/2017/08/10/font-size-an-unexpectedly-complex-css-property/)
- -[93 most popular premium fonts alternative google fonts](https://designtheway.com/most-used-fonts-alternative-google-fonts/)
+- [93 most popular premium fonts alternative google fonts](https://designtheway.com/most-used-fonts-alternative-google-fonts/)
+- [Font Aliasing, or How to Rename a Font in CSS](https://www.zachleat.com/web/rename-font/)
 
 ## Web Fonts & Web Performance
 - [Controlling Font Performance with font-display](https://developers.google.com/web/updates/2016/02/font-display)
@@ -51,6 +52,10 @@ A curated collection of awesome web typography articles.
 - [Web Font Loading Patterns](http://bramstein.com/writing/web-font-loading-patterns.html)
 - [Performance and Web Typography - Video](https://www.youtube.com/watch?v=emLfXChvVPQ)
 - [Tips for balancing web fonts & page load](https://frontendnews.io/editions/2018-07-25-tips-for-loading-web-fonts)
+- [Loading Web Fonts Asynchronously](http://calendar.perfplanet.com/2016/loading-web-fonts-asynchronously/)
+- [Font Aliasing, or How to Rename a Font in CSS](https://www.zachleat.com/web/rename-font/)
+- [A Collection of Web Font Loading Recipes](https://www.zachleat.com/web/recipes/)
+- [No @font-face Syntax will ever be Bulletproof, Nor Should It Be](http://calendar.perfplanet.com/2016/no-font-face-bulletproof-syntax/)
 
 ## Tools
 - [The State of Web Type - Up-to-date data on support for type and typographic features on the web](http://stateofwebtype.com/)
@@ -67,6 +72,7 @@ A curated collection of awesome web typography articles.
 - [Google WebFonts Helper](https://google-webfonts-helper.herokuapp.com/fonts/aguafina-script?subsets=latin)
 - [Using Custom Fonts in Emails](https://github.com/ladjs/custom-fonts-in-emails)
 - [Font Face Observer is a fast and simple web font loader](https://fontfaceobserver.com/)
+- [MixFont A Modern Font Generator](https://www.mixfont.com/)
 
 ## Books
 - [On Web Typography](https://abookapart.com/products/on-web-typography)
