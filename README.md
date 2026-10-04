@@ -77,6 +77,7 @@ A curated collection of awesome web typography articles.
 - [Typographist — Modular scale calculator API with config validation](https://github.com/typographist)
 - [Font Face Observer is a fast and simple web font loader](https://fontfaceobserver.com/)
 - [MixFont A Modern Font Generator](https://www.mixfont.com/)
+- [Cursive Text Generator - Converts text into Unicode script characters that can be pasted anywhere, no font files needed](https://cursive-text-generator.net/)
 - [How to use custom fonts in emails](https://github.com/forwardemail/custom-fonts-in-emails)
 
 ## Books
