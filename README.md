@@ -78,6 +78,7 @@ A curated collection of awesome web typography articles.
 - [Font Face Observer is a fast and simple web font loader](https://fontfaceobserver.com/)
 - [MixFont A Modern Font Generator](https://www.mixfont.com/)
 - [How to use custom fonts in emails](https://github.com/forwardemail/custom-fonts-in-emails)
+- [FontVibe Fancy Font Generator - Type once and copy your text in 300+ Unicode styles (cursive, gothic, bubble, small caps), free with no login.](https://fontvibe.ai/tools/fancy-font-generator)
 
 ## Books
 - [On Web Typography](https://abookapart.com/products/on-web-typography)
