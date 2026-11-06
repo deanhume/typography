@@ -71,6 +71,7 @@ A curated collection of awesome web typography articles.
 - [brick.im](https://github.com/alfredxing/brick)
 - [Typebase.css](http://devinhunt.github.io/typebase.css/)
 - [Google WebFonts Helper](https://google-webfonts-helper.herokuapp.com/fonts/aguafina-script?subsets=latin)
+  - [FontHubs - Open-source font library covering 200+ languages, with license lookup, font identification and WebFont kit tools.](https://fonthubs.com/)
 - [FontsWiki - Searchable font catalog with free alternatives and Fonts-in-Use references for designers and developers.](https://fontswiki.com)
 - [What Font Finder - Identify a font from an image in the browser, with a confidence score and no upload.](https://whatfontfinder.com/font-identifier/)
 - [Using Custom Fonts in Emails](https://github.com/ladjs/custom-fonts-in-emails)
@@ -89,6 +90,7 @@ A curated collection of awesome web typography articles.
 
 ## Font Combinations
 - [Mixfont](https://www.mixfont.com/)
+-  [FontHubs](https://fonthubs.com/)
 - [Font Combinations](https://www.canva.com/font-combinations/)
 - [Google web fonts in action](http://femmebot.github.io/google-type/)
 - [Beautiful Web Type](https://beautifulwebtype.com/)
