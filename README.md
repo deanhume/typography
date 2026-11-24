@@ -78,6 +78,7 @@ A curated collection of awesome web typography articles.
 - [Font Face Observer is a fast and simple web font loader](https://fontfaceobserver.com/)
 - [MixFont A Modern Font Generator](https://www.mixfont.com/)
 - [How to use custom fonts in emails](https://github.com/forwardemail/custom-fonts-in-emails)
+- [A1 Fonts - The 570+ typefaces used on hand-picked live websites, most used first, with the real sites that use each font.](https://www.a1.gallery/fonts)
 
 ## Books
 - [On Web Typography](https://abookapart.com/products/on-web-typography)
