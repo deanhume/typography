@@ -57,6 +57,7 @@ A curated collection of awesome web typography articles.
 - [A Collection of Web Font Loading Recipes](https://www.zachleat.com/web/recipes/)
 - [No @font-face Syntax will ever be Bulletproof, Nor Should It Be](http://calendar.perfplanet.com/2016/no-font-face-bulletproof-syntax/)
 - [Performance and Web Typography](https://www.youtube.com/watch?v=emLfXChvVPQ)
+- [Google Fonts vs Self-Hosted vs System Fonts](https://sitepatent.com/blog/google-fonts-vs-self-hosted-vs-system-fonts)
 
 ## Tools
 - [The State of Web Type - Up-to-date data on support for type and typographic features on the web](http://stateofwebtype.com/)
